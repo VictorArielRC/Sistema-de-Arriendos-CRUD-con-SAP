@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E450B19F-D2DE-4378-95D0-F45232D8CF64}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Presentacion</RootNamespace>
+    <AssemblyName>Presentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.TemplateEngine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Viewing.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommLayer, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonControls, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonObjectModel, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.Controllers, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CubeDefModel, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.DataDefModel, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.DataSetConversion, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64" />
+    <Reference Include="CrystalDecisions.ReportAppServer.ObjectFactory, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.Prompting, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ReportDefModel, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.XmlSerialize, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.VSDesigner, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="9.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AAClases\Filtrar.cs" />
+    <Compile Include="AAClases\ValidaRut.cs" />
+    <Compile Include="ArriFinal\RArriendo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RArriendo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ArriFinal\PArrIng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArriFinal\PArrIng.Designer.cs">
+      <DependentUpon>PArrIng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArriFinal\PArr_Imp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArriFinal\PArr_Imp.Designer.cs">
+      <DependentUpon>PArr_Imp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\PCli_Act.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\PCli_Act.Designer.cs">
+      <DependentUpon>PCli_Act.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\PCli_Con.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\PCli_Con.Designer.cs">
+      <DependentUpon>PCli_Con.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\PCli_Ing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\PCli_Ing.Designer.cs">
+      <DependentUpon>PCli_Ing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracion.cs" />
+    <Compile Include="Localidad\PCom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Localidad\PCom.Designer.cs">
+      <DependentUpon>PCom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Localidad\PPro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Localidad\PPro.Designer.cs">
+      <DependentUpon>PPro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Localidad\PReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Localidad\PReg.Designer.cs">
+      <DependentUpon>PReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginVisualStyleManager.cs" />
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\PProd_Act.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\PProd_Act.Designer.cs">
+      <DependentUpon>PProd_Act.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\PProd_Car.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\PProd_Car.Designer.cs">
+      <DependentUpon>PProd_Car.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\PProd_Con.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\PProd_Con.Designer.cs">
+      <DependentUpon>PProd_Con.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\PProd_Ing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\PProd_Ing.Designer.cs">
+      <DependentUpon>PProd_Ing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proveedor\PProv_Act.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedor\PProv_Act.Designer.cs">
+      <DependentUpon>PProv_Act.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proveedor\PProv_Con.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedor\PProv_Con.Designer.cs">
+      <DependentUpon>PProv_Con.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proveedor\PProv_Ing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedor\PProv_Ing.Designer.cs">
+      <DependentUpon>PProv_Ing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemeManager.cs" />
+    <Compile Include="Usuarios\PUsua_Con.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuarios\PUsua_Con.Designer.cs">
+      <DependentUpon>PUsua_Con.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios\PUsua_Ing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuarios\PUsua_Ing.Designer.cs">
+      <DependentUpon>PUsua_Ing.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ArriFinal\RArriendo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RArriendo.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArriFinal\PArrIng.resx">
+      <DependentUpon>PArrIng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArriFinal\PArr_Imp.resx">
+      <DependentUpon>PArr_Imp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\PCli_Act.resx">
+      <DependentUpon>PCli_Act.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\PCli_Con.resx">
+      <DependentUpon>PCli_Con.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\PCli_Ing.resx">
+      <DependentUpon>PCli_Ing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localidad\PCom.resx">
+      <DependentUpon>PCom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localidad\PPro.resx">
+      <DependentUpon>PPro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localidad\PReg.resx">
+      <DependentUpon>PReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\PProd_Act.resx">
+      <DependentUpon>PProd_Act.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\PProd_Car.resx">
+      <DependentUpon>PProd_Car.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\PProd_Con.resx">
+      <DependentUpon>PProd_Con.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\PProd_Ing.resx">
+      <DependentUpon>PProd_Ing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Proveedor\PProv_Act.resx">
+      <DependentUpon>PProv_Act.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedor\PProv_Con.resx">
+      <DependentUpon>PProv_Con.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedor\PProv_Ing.resx">
+      <DependentUpon>PProv_Ing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuarios\PUsua_Con.resx">
+      <DependentUpon>PUsua_Con.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuarios\PUsua_Ing.resx">
+      <DependentUpon>PUsua_Ing.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidad\Entidad.csproj">
+      <Project>{6b92e6e7-1dfb-46cd-8a9b-b1b336d1d9f3}</Project>
+      <Name>Entidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Negocio\Negocio.csproj">
+      <Project>{6c75e02e-b465-48a8-b087-363edfc9520d}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
