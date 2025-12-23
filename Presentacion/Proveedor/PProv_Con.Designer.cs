@@ -54,7 +54,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Grilla)).BeginInit();
             this.SuspendLayout();
             // 
-            // ButLimBus
+            // ButLimBus.
             // 
             this.ButLimBus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButLimBus.Location = new System.Drawing.Point(523, 66);
@@ -67,7 +67,7 @@
             this.ButLimBus.UseVisualStyleBackColor = true;
             this.ButLimBus.Click += new System.EventHandler(this.ButLimBus_Click);
             // 
-            // ButBus
+            // ButBus.
             // 
             this.ButBus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButBus.Location = new System.Drawing.Point(434, 66);
@@ -80,7 +80,7 @@
             this.ButBus.UseVisualStyleBackColor = true;
             this.ButBus.Click += new System.EventHandler(this.ButBus_Click);
             // 
-            // TextBus
+            // TextBus.
             // 
             this.TextBus.Location = new System.Drawing.Point(87, 81);
             this.TextBus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -91,7 +91,7 @@
             this.TextBus.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.TextBus.TextChanged += new System.EventHandler(this.TextBus_TextChanged);
             // 
-            // ComboBus
+            // ComboBus.
             // 
             this.ComboBus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComboBus.FormattingEnabled = true;
@@ -101,7 +101,7 @@
             this.ComboBus.Size = new System.Drawing.Size(142, 28);
             this.ComboBus.TabIndex = 252;
             // 
-            // label4
+            // Label4.
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(93, 50);
@@ -110,7 +110,7 @@
             this.label4.TabIndex = 251;
             this.label4.Text = "Buscar Por:";
             // 
-            // TextBox1
+            // TextBox1.
             // 
             this.TextBox1.Enabled = false;
             this.TextBox1.Location = new System.Drawing.Point(139, 436);
@@ -121,7 +121,7 @@
             this.TextBox1.TabStop = false;
             this.TextBox1.Visible = false;
             // 
-            // ButEli
+            // ButEli.
             // 
             this.ButEli.Enabled = false;
             this.ButEli.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -137,7 +137,7 @@
             this.ButEli.Visible = false;
             this.ButEli.Click += new System.EventHandler(this.ButEli_Click);
             // 
-            // ButMod
+            // ButMod.
             // 
             this.ButMod.Enabled = false;
             this.ButMod.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -153,7 +153,7 @@
             this.ButMod.Visible = false;
             this.ButMod.Click += new System.EventHandler(this.ButMod_Click);
             // 
-            // ButSal
+            // ButSal.
             // 
             this.ButSal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButSal.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -167,7 +167,7 @@
             this.ButSal.UseVisualStyleBackColor = true;
             this.ButSal.Click += new System.EventHandler(this.ButSal_Click);
             // 
-            // ButVol
+            // ButVol.
             // 
             this.ButVol.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButVol.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -181,7 +181,7 @@
             this.ButVol.UseVisualStyleBackColor = true;
             this.ButVol.Click += new System.EventHandler(this.ButVol_Click);
             // 
-            // Grilla
+            // Grilla.
             // 
             this.Grilla.AllowUserToAddRows = false;
             this.Grilla.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -210,7 +210,7 @@
             this.Grilla.TabIndex = 245;
             this.Grilla.DoubleClick += new System.EventHandler(this.Grilla_DoubleClick);
             // 
-            // Selec
+            // Selec.
             // 
             this.Selec.HeaderText = "Column1";
             this.Selec.MinimumWidth = 6;
@@ -219,7 +219,7 @@
             this.Selec.Visible = false;
             this.Selec.Width = 125;
             // 
-            // IdProv
+            // IdProv.
             // 
             this.IdProv.HeaderText = "IdCli";
             this.IdProv.MinimumWidth = 6;
@@ -228,7 +228,7 @@
             this.IdProv.Visible = false;
             this.IdProv.Width = 125;
             // 
-            // Nombre
+            // Nombre.
             // 
             this.Nombre.HeaderText = "Nombre";
             this.Nombre.MinimumWidth = 6;
@@ -236,7 +236,7 @@
             this.Nombre.ReadOnly = true;
             this.Nombre.Width = 400;
             // 
-            // Rut
+            // Rut.
             // 
             this.Rut.HeaderText = "Rut";
             this.Rut.MinimumWidth = 6;
@@ -244,7 +244,7 @@
             this.Rut.ReadOnly = true;
             this.Rut.Width = 120;
             // 
-            // IdCom
+            // IdCom.
             // 
             this.IdCom.HeaderText = "IdCom";
             this.IdCom.MinimumWidth = 6;
@@ -253,7 +253,7 @@
             this.IdCom.Visible = false;
             this.IdCom.Width = 125;
             // 
-            // Comuna
+            // Comuna.
             // 
             this.Comuna.HeaderText = "Comuna";
             this.Comuna.MinimumWidth = 6;
@@ -261,7 +261,7 @@
             this.Comuna.ReadOnly = true;
             this.Comuna.Width = 240;
             // 
-            // Direccion
+            // Direccion.
             // 
             this.Direccion.HeaderText = "Direccion";
             this.Direccion.MinimumWidth = 6;
@@ -270,7 +270,7 @@
             this.Direccion.Visible = false;
             this.Direccion.Width = 125;
             // 
-            // Tel
+            // Tel.
             // 
             this.Tel.HeaderText = "Tel";
             this.Tel.MinimumWidth = 6;
@@ -279,7 +279,7 @@
             this.Tel.Visible = false;
             this.Tel.Width = 125;
             // 
-            // Email
+            // Email.
             // 
             this.Email.HeaderText = "Email";
             this.Email.MinimumWidth = 6;
@@ -288,7 +288,7 @@
             this.Email.Visible = false;
             this.Email.Width = 125;
             // 
-            // Giro
+            // Giro.
             // 
             this.Giro.HeaderText = "Giro";
             this.Giro.MinimumWidth = 6;
@@ -296,7 +296,7 @@
             this.Giro.ReadOnly = true;
             this.Giro.Width = 200;
             // 
-            // Descripcion
+            // Descripcion.
             // 
             this.Descripcion.HeaderText = "Descripcion";
             this.Descripcion.MinimumWidth = 6;
@@ -305,7 +305,7 @@
             this.Descripcion.Visible = false;
             this.Descripcion.Width = 125;
             // 
-            // label1
+            // Label1.
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(400, 15);
@@ -314,7 +314,7 @@
             this.label1.TabIndex = 244;
             this.label1.Text = "Información sobre Proveedor";
             // 
-            // PProv_Con
+            // PProv_Con.
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

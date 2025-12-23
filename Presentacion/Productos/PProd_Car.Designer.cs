@@ -54,7 +54,7 @@
             this.TeTotCan = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // TextCArrA
+            // TextCArrA.
             // 
             this.TextCArrA.Enabled = false;
             this.TextCArrA.Location = new System.Drawing.Point(233, 138);
@@ -63,7 +63,7 @@
             this.TextCArrA.TabIndex = 87;
             this.TextCArrA.TabStop = false;
             // 
-            // Label3
+            // Label3.
             // 
             this.Label3.AutoSize = true;
             this.Label3.Location = new System.Drawing.Point(14, 181);
@@ -72,7 +72,7 @@
             this.Label3.TabIndex = 86;
             this.Label3.Text = "Cantidad a Arrendar:";
             // 
-            // Label2
+            // Label2.
             // 
             this.Label2.AutoSize = true;
             this.Label2.Location = new System.Drawing.Point(99, 11);
@@ -81,7 +81,7 @@
             this.Label2.TabIndex = 85;
             this.Label2.Text = "Agregar Producto a la Cotización";
             // 
-            // ButTAg
+            // ButTAg.
             // 
             this.ButTAg.Enabled = false;
             this.ButTAg.Location = new System.Drawing.Point(219, 298);
@@ -93,7 +93,7 @@
             this.ButTAg.UseVisualStyleBackColor = true;
             this.ButTAg.Click += new System.EventHandler(this.ButTAg_Click);
             // 
-            // ButAg
+            // ButAg.
             // 
             this.ButAg.Enabled = false;
             this.ButAg.Location = new System.Drawing.Point(14, 298);
@@ -105,7 +105,7 @@
             this.ButAg.UseVisualStyleBackColor = true;
             this.ButAg.Click += new System.EventHandler(this.ButAg_Click);
             // 
-            // TextIPro
+            // TextIPro.
             // 
             this.TextIPro.Location = new System.Drawing.Point(173, 372);
             this.TextIPro.Name = "TextIPro";
@@ -113,7 +113,7 @@
             this.TextIPro.TabIndex = 81;
             this.TextIPro.TabStop = false;
             // 
-            // ButAn
+            // ButAn.
             // 
             this.ButAn.Enabled = false;
             this.ButAn.Location = new System.Drawing.Point(343, 178);
@@ -125,7 +125,7 @@
             this.ButAn.UseVisualStyleBackColor = true;
             this.ButAn.Click += new System.EventHandler(this.ButAn_Click);
             // 
-            // TextVArr
+            // TextVArr.
             // 
             this.TextVArr.Enabled = false;
             this.TextVArr.Location = new System.Drawing.Point(233, 258);
@@ -134,7 +134,7 @@
             this.TextVArr.TabIndex = 79;
             this.TextVArr.TabStop = false;
             // 
-            // TextTAct
+            // TextTAct.
             // 
             this.TextTAct.Enabled = false;
             this.TextTAct.Location = new System.Drawing.Point(233, 218);
@@ -143,7 +143,7 @@
             this.TextTAct.TabIndex = 78;
             this.TextTAct.TabStop = false;
             // 
-            // TextCArr
+            // TextCArr.
             // 
             this.TextCArr.Location = new System.Drawing.Point(233, 178);
             this.TextCArr.Name = "TextCArr";
@@ -153,7 +153,7 @@
             this.TextCArr.TextChanged += new System.EventHandler(this.TextCArr_TextChanged);
             this.TextCArr.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextCArr_KeyPress);
             // 
-            // TextCAct
+            // TextCAct.
             // 
             this.TextCAct.Enabled = false;
             this.TextCAct.Location = new System.Drawing.Point(233, 98);
@@ -162,7 +162,7 @@
             this.TextCAct.TabIndex = 76;
             this.TextCAct.TabStop = false;
             // 
-            // Label8
+            // Label8.
             // 
             this.Label8.AutoSize = true;
             this.Label8.Location = new System.Drawing.Point(14, 261);
@@ -171,7 +171,7 @@
             this.Label8.TabIndex = 75;
             this.Label8.Text = "Valor Arriendo por Unidad:";
             // 
-            // Label7
+            // Label7.
             // 
             this.Label7.AutoSize = true;
             this.Label7.Location = new System.Drawing.Point(14, 221);
@@ -180,7 +180,7 @@
             this.Label7.TabIndex = 74;
             this.Label7.Text = "Total Actual:";
             // 
-            // Label6
+            // Label6.
             // 
             this.Label6.AutoSize = true;
             this.Label6.Location = new System.Drawing.Point(14, 141);
@@ -189,7 +189,7 @@
             this.Label6.TabIndex = 73;
             this.Label6.Text = "Cantidad Arrendada Actual:";
             // 
-            // Label5
+            // Label5.
             // 
             this.Label5.AutoSize = true;
             this.Label5.Location = new System.Drawing.Point(14, 101);
@@ -198,7 +198,7 @@
             this.Label5.TabIndex = 72;
             this.Label5.Text = "Cantidad Actual:";
             // 
-            // TextNom
+            // TextNom.
             // 
             this.TextNom.Enabled = false;
             this.TextNom.Location = new System.Drawing.Point(193, 58);
@@ -207,7 +207,7 @@
             this.TextNom.TabIndex = 71;
             this.TextNom.TabStop = false;
             // 
-            // Label1
+            // Label1.
             // 
             this.Label1.AutoSize = true;
             this.Label1.Location = new System.Drawing.Point(14, 60);
@@ -216,7 +216,7 @@
             this.Label1.TabIndex = 70;
             this.Label1.Text = "Nombre del Producto:";
             // 
-            // butCal
+            // ButCal.
             // 
             this.butCal.Enabled = false;
             this.butCal.Location = new System.Drawing.Point(343, 98);
@@ -228,7 +228,7 @@
             this.butCal.UseVisualStyleBackColor = true;
             this.butCal.Click += new System.EventHandler(this.butCal_Click);
             // 
-            // ButSal
+            // ButSal.
             // 
             this.ButSal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButSal.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -242,7 +242,7 @@
             this.ButSal.UseVisualStyleBackColor = true;
             this.ButSal.Click += new System.EventHandler(this.ButSal_Click);
             // 
-            // ButVol
+            // ButVol.
             // 
             this.ButVol.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButVol.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -256,7 +256,7 @@
             this.ButVol.UseVisualStyleBackColor = true;
             this.ButVol.Click += new System.EventHandler(this.ButVol_Click);
             // 
-            // TextCArrF
+            // TextCArrF.
             // 
             this.TextCArrF.Enabled = false;
             this.TextCArrF.Location = new System.Drawing.Point(299, 372);
@@ -265,7 +265,7 @@
             this.TextCArrF.TabIndex = 214;
             this.TextCArrF.TabStop = false;
             // 
-            // butLim
+            // ButLim.
             // 
             this.butLim.Enabled = false;
             this.butLim.Location = new System.Drawing.Point(343, 138);
@@ -277,7 +277,7 @@
             this.butLim.UseVisualStyleBackColor = true;
             this.butLim.Click += new System.EventHandler(this.butLim_Click);
             // 
-            // TeArrCan
+            // TeArrCan.
             // 
             this.TeArrCan.Enabled = false;
             this.TeArrCan.Location = new System.Drawing.Point(233, 411);
@@ -286,7 +286,7 @@
             this.TeArrCan.TabIndex = 216;
             this.TeArrCan.TabStop = false;
             // 
-            // TeTotCan
+            // TeTotCan.
             // 
             this.TeTotCan.Enabled = false;
             this.TeTotCan.Location = new System.Drawing.Point(142, 411);
@@ -295,7 +295,7 @@
             this.TeTotCan.TabIndex = 217;
             this.TeTotCan.TabStop = false;
             // 
-            // PProd_Car
+            // PProd_Car.
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

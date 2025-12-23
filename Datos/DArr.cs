@@ -1,39 +1,39 @@
-﻿// Accede a códigos de otra librería
+﻿// Importa dependencias.
 using Entidad;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Collections.Generic;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Data;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Data.SqlClient;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Linq;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Text;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Threading.Tasks;
 
 
-// Gestión datos
+// Gestión datos.
 
 namespace Datos
 {
     public class DArr
     {
-        // Instancia privada de la clase Conexion para manejar las conexiones a la base de datos
+        // Instancia privada de la clase Conexion para manejar las conexiones a la base de datos.
         private Conexion Cn = new Conexion();
 
-        // Campo estático que contiene la única instancia de DArr (patrón Singleton)
+        // Campo estático que contiene la única instancia de DArr (patrón Singleton).
         public static DArr _instancia = null;
 
-        // Propiedad para acceder a la instancia única de DArr
+        // Propiedad para acceder a la instancia única de DArr.
         public static DArr Instancia
         {
             get
             {
-                // Si no existe una instancia, se crea
+                // Si no existe una instancia, se crea.
                 if (_instancia == null)
                 {
                     _instancia = new DArr();
@@ -41,12 +41,12 @@ namespace Datos
                 return _instancia; // Devuelve la instancia
             }
         }
-        // Método que obtiene una lista de registros desde el procedimiento almacenado "Bus_Arr"
+        // Método que obtiene una lista de registros desde el procedimiento almacenado "Bus_Arr".
         public List<EArr> Listar()
         {
             List<EArr> Lis = new List<EArr>(); // Lista de objetos EArr que se devolverá
 
-            // Crea y gestiona automáticamente la conexión con la base de datos (se libera al finalizar el bloque)
+            // Crea y gestiona automáticamente la conexión con la base de datos (se libera al finalizar el bloque).
             using (SqlConnection oConexion = new SqlConnection(Conexion.Conex))
             {
                 SqlCommand cmd = new SqlCommand("Bus_Arr", oConexion); // Comando SQL asociado al SP
@@ -59,7 +59,7 @@ namespace Datos
 
                     while (dr.Read()) // Itera sobre cada fila del resultado
                     {
-                        // Agrega un nuevo objeto EArr a la lista, mapeando los campos del lector
+                        // Agrega un nuevo objeto EArr a la lista, mapeando los campos del lector.
                         Lis.Add(new EArr()
                         {
                             IdArr = Convert.ToInt32(dr["IdArr"].ToString()),           // Convierte el valor a entero de 32 bits
@@ -85,7 +85,7 @@ namespace Datos
                 }
             }
         }
-        // Método que inserta un nuevo registro en la base de datos
+        // Método que inserta un nuevo registro en la base de datos.
         public bool Ingresar(EArr obj)
         {
             bool Respuesta = true; // Indicador de éxito de la operación (inicialmente verdadero)
@@ -152,7 +152,7 @@ namespace Datos
 
             return Respuesta; // Devuelve el estado de la operación
         }
-        // Método que elimina registros relacionados al ID especificado
+        // Método que elimina registros relacionados al ID especificado.
         public bool Eliminar(int Id)
         {
             bool Respuesta = true; // Variable que indica si se eliminó correctamente
@@ -180,7 +180,7 @@ namespace Datos
 
             return Respuesta; // Devuelve el estado final de la operación
         }
-        // Método que obtiene el último ID insertado en la tabla correspondiente
+        // Método que obtiene el último ID insertado en la tabla correspondiente.
         public int ObtenerUltimoId()
         {
             int ultimoId = 0; // Inicializa la variable que almacenará el último ID
@@ -204,7 +204,7 @@ namespace Datos
             }
             catch (Exception ex) // Captura cualquier excepción durante la ejecución
             {
-                // Lanza la excepción con contexto para facilitar el rastreo de errores
+                // Lanza la excepción con contexto para facilitar el rastreo de errores.
                 throw new Exception("Error al obtener el último ID desde 'Ult_Arr': " + ex.Message, ex);
             }
 

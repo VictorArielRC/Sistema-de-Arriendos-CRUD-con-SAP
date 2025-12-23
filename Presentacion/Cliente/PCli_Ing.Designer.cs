@@ -56,7 +56,7 @@
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // ButLim
+            // ButLim.
             // 
             this.ButLim.Enabled = false;
             this.ButLim.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -71,7 +71,7 @@
             this.ButLim.UseVisualStyleBackColor = true;
             this.ButLim.Click += new System.EventHandler(this.ButLim_Click);
             // 
-            // ButIng
+            // ButIng.
             // 
             this.ButIng.Enabled = false;
             this.ButIng.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -85,7 +85,7 @@
             this.ButIng.UseVisualStyleBackColor = true;
             this.ButIng.Click += new System.EventHandler(this.ButIng_Click);
             // 
-            // ButSal
+            // ButSal.
             // 
             this.ButSal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButSal.Location = new System.Drawing.Point(732, 411);
@@ -99,7 +99,7 @@
             this.ButSal.UseVisualStyleBackColor = true;
             this.ButSal.Click += new System.EventHandler(this.ButSal_Click);
             // 
-            // ButVol
+            // ButVol.
             // 
             this.ButVol.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButVol.Location = new System.Drawing.Point(619, 411);
@@ -113,7 +113,7 @@
             this.ButVol.UseVisualStyleBackColor = true;
             this.ButVol.Click += new System.EventHandler(this.ButVol_Click);
             // 
-            // label1
+            // Label1.
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(405, 21);
@@ -123,7 +123,7 @@
             this.label1.TabIndex = 90;
             this.label1.Text = "Ingreso Nuevo Cliente:";
             // 
-            // groupBox1
+            // GroupBox1.
             // 
             this.groupBox1.Controls.Add(this.TextGir);
             this.groupBox1.Controls.Add(this.Label3);
@@ -152,7 +152,7 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos Personales";
             // 
-            // TextGir
+            // TextGir.
             // 
             this.TextGir.Location = new System.Drawing.Point(259, 300);
             this.TextGir.Name = "TextGir";
@@ -161,7 +161,7 @@
             this.TextGir.TabStop = false;
             this.TextGir.TextChanged += new System.EventHandler(this.TextGir_TextChanged);
             // 
-            // Label3
+            // Label3.
             // 
             this.Label3.AutoSize = true;
             this.Label3.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -171,7 +171,7 @@
             this.Label3.TabIndex = 41;
             this.Label3.Text = "Giro:";
             // 
-            // TextTel
+            // TextTel.
             // 
             this.TextTel.Location = new System.Drawing.Point(63, 250);
             this.TextTel.Name = "TextTel";
@@ -180,7 +180,7 @@
             this.TextTel.TabStop = false;
             this.TextTel.TextChanged += new System.EventHandler(this.TextTel_TextChanged);
             // 
-            // TextEma
+            // TextEma.
             // 
             this.TextEma.Location = new System.Drawing.Point(308, 250);
             this.TextEma.Name = "TextEma";
@@ -189,7 +189,7 @@
             this.TextEma.TabStop = false;
             this.TextEma.TextChanged += new System.EventHandler(this.TextEma_TextChanged);
             // 
-            // label20
+            // Label20.
             // 
             this.label20.AutoSize = true;
             this.label20.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -199,7 +199,7 @@
             this.label20.TabIndex = 40;
             this.label20.Text = "Telefono:";
             // 
-            // label21
+            // Label21.
             // 
             this.label21.AutoSize = true;
             this.label21.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -209,7 +209,7 @@
             this.label21.TabIndex = 39;
             this.label21.Text = "Email:";
             // 
-            // label5
+            // Label5.
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -219,7 +219,7 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Rut:";
             // 
-            // label19
+            // Label19.
             // 
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(64, 19);
@@ -228,7 +228,7 @@
             this.label19.TabIndex = 38;
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // Label2.
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -238,7 +238,7 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Nombre:";
             // 
-            // TextDire
+            // TextDire.
             // 
             this.TextDire.Location = new System.Drawing.Point(308, 181);
             this.TextDire.Name = "TextDire";
@@ -247,7 +247,7 @@
             this.TextDire.TabStop = false;
             this.TextDire.TextChanged += new System.EventHandler(this.TextDire_TextChanged);
             // 
-            // TextNom
+            // TextNom.
             // 
             this.TextNom.Location = new System.Drawing.Point(339, 40);
             this.TextNom.Name = "TextNom";
@@ -255,7 +255,7 @@
             this.TextNom.TabIndex = 2;
             this.TextNom.TextChanged += new System.EventHandler(this.TextNom_TextChanged);
             // 
-            // CBCom
+            // CBCom.
             // 
             this.CBCom.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBCom.FormattingEnabled = true;
@@ -266,7 +266,7 @@
             this.CBCom.TabStop = false;
             this.CBCom.SelectedIndexChanged += new System.EventHandler(this.CBCom_SelectedIndexChanged);
             // 
-            // label18
+            // Label18.
             // 
             this.label18.AutoSize = true;
             this.label18.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -276,7 +276,7 @@
             this.label18.TabIndex = 30;
             this.label18.Text = "Comuna:";
             // 
-            // label11
+            // Label11.
             // 
             this.label11.AutoSize = true;
             this.label11.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -286,7 +286,7 @@
             this.label11.TabIndex = 10;
             this.label11.Text = "Dirección:";
             // 
-            // CBPro
+            // CBPro.
             // 
             this.CBPro.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBPro.FormattingEnabled = true;
@@ -299,7 +299,7 @@
             this.CBPro.TabStop = false;
             this.CBPro.SelectedIndexChanged += new System.EventHandler(this.CBPro_SelectedIndexChanged);
             // 
-            // CBReg
+            // CBReg.
             // 
             this.CBReg.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBReg.FormattingEnabled = true;
@@ -312,7 +312,7 @@
             this.CBReg.TabStop = false;
             this.CBReg.SelectedIndexChanged += new System.EventHandler(this.CBReg_SelectedIndexChanged);
             // 
-            // TextRut
+            // TextRut.
             // 
             this.TextRut.Location = new System.Drawing.Point(63, 40);
             this.TextRut.Name = "TextRut";
@@ -321,7 +321,7 @@
             this.TextRut.TextChanged += new System.EventHandler(this.TextRut_TextChanged);
             this.TextRut.Leave += new System.EventHandler(this.TextRut_Leave);
             // 
-            // label17
+            // Label17.
             // 
             this.label17.AutoSize = true;
             this.label17.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -331,7 +331,7 @@
             this.label17.TabIndex = 29;
             this.label17.Text = "Provincia:";
             // 
-            // label12
+            // Label12.
             // 
             this.label12.AutoSize = true;
             this.label12.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -341,7 +341,7 @@
             this.label12.TabIndex = 11;
             this.label12.Text = "Región:";
             // 
-            // PCli_Ing
+            // PCli_Ing.
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

@@ -1,5 +1,5 @@
 ﻿using System;
-// Accede a códigos de otra librería
+// Importa dependencias.
 
 namespace Presentacion.AAClases
 {

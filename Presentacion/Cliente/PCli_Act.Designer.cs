@@ -69,7 +69,7 @@
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // TextComIdeI
+            // TextComIdeI.
             // 
             this.TextComIdeI.Enabled = false;
             this.TextComIdeI.Location = new System.Drawing.Point(318, 569);
@@ -78,7 +78,7 @@
             this.TextComIdeI.TabIndex = 259;
             this.TextComIdeI.TabStop = false;
             // 
-            // TextComIdeF
+            // TextComIdeF.
             // 
             this.TextComIdeF.Enabled = false;
             this.TextComIdeF.Location = new System.Drawing.Point(273, 569);
@@ -87,7 +87,7 @@
             this.TextComIdeF.TabIndex = 258;
             this.TextComIdeF.TabStop = false;
             // 
-            // TextEmaI
+            // TextEmaI.
             // 
             this.TextEmaI.Enabled = false;
             this.TextEmaI.Location = new System.Drawing.Point(405, 569);
@@ -96,7 +96,7 @@
             this.TextEmaI.TabIndex = 257;
             this.TextEmaI.TabStop = false;
             // 
-            // TextGirI
+            // TextGirI.
             // 
             this.TextGirI.Enabled = false;
             this.TextGirI.Location = new System.Drawing.Point(448, 539);
@@ -105,7 +105,7 @@
             this.TextGirI.TabIndex = 256;
             this.TextGirI.TabStop = false;
             // 
-            // TextDireI
+            // TextDireI.
             // 
             this.TextDireI.Enabled = false;
             this.TextDireI.Location = new System.Drawing.Point(362, 539);
@@ -114,7 +114,7 @@
             this.TextDireI.TabIndex = 255;
             this.TextDireI.TabStop = false;
             // 
-            // TextTelI
+            // TextTelI.
             // 
             this.TextTelI.Enabled = false;
             this.TextTelI.Location = new System.Drawing.Point(405, 511);
@@ -123,7 +123,7 @@
             this.TextTelI.TabIndex = 254;
             this.TextTelI.TabStop = false;
             // 
-            // TextComI
+            // TextComI.
             // 
             this.TextComI.Enabled = false;
             this.TextComI.Location = new System.Drawing.Point(318, 539);
@@ -132,7 +132,7 @@
             this.TextComI.TabIndex = 253;
             this.TextComI.TabStop = false;
             // 
-            // TextNomI
+            // TextNomI.
             // 
             this.TextNomI.Enabled = false;
             this.TextNomI.Location = new System.Drawing.Point(273, 539);
@@ -141,7 +141,7 @@
             this.TextNomI.TabIndex = 252;
             this.TextNomI.TabStop = false;
             // 
-            // TextIdCli
+            // TextIdCli.
             // 
             this.TextIdCli.Enabled = false;
             this.TextIdCli.Location = new System.Drawing.Point(230, 511);
@@ -150,7 +150,7 @@
             this.TextIdCli.TabIndex = 249;
             this.TextIdCli.TabStop = false;
             // 
-            // ButAnu
+            // ButAnu.
             // 
             this.ButAnu.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButAnu.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -163,7 +163,7 @@
             this.ButAnu.UseVisualStyleBackColor = true;
             this.ButAnu.Click += new System.EventHandler(this.ButAnu_Click);
             // 
-            // ButMod
+            // ButMod.
             // 
             this.ButMod.Enabled = false;
             this.ButMod.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -178,7 +178,7 @@
             this.ButMod.UseVisualStyleBackColor = true;
             this.ButMod.Click += new System.EventHandler(this.ButMod_Click);
             // 
-            // ButSal
+            // ButSal.
             // 
             this.ButSal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButSal.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -192,7 +192,7 @@
             this.ButSal.UseVisualStyleBackColor = true;
             this.ButSal.Click += new System.EventHandler(this.ButSal_Click);
             // 
-            // ButVol
+            // ButVol.
             // 
             this.ButVol.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButVol.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -206,7 +206,7 @@
             this.ButVol.UseVisualStyleBackColor = true;
             this.ButVol.Click += new System.EventHandler(this.ButVol_Click);
             // 
-            // label1
+            // Label1.
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(436, 9);
@@ -216,7 +216,7 @@
             this.label1.TabIndex = 251;
             this.label1.Text = "Actualizar Cliente:";
             // 
-            // groupBox1
+            // GroupBox1.
             // 
             this.groupBox1.Controls.Add(this.TextComF);
             this.groupBox1.Controls.Add(this.labelActCom);
@@ -249,7 +249,7 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos Personales";
             // 
-            // TextComF
+            // TextComF.
             // 
             this.TextComF.Enabled = false;
             this.TextComF.Location = new System.Drawing.Point(419, 280);
@@ -258,7 +258,7 @@
             this.TextComF.TabIndex = 228;
             this.TextComF.TabStop = false;
             // 
-            // labelActCom
+            // LabelActCom.
             // 
             this.labelActCom.AutoSize = true;
             this.labelActCom.Enabled = false;
@@ -270,7 +270,7 @@
             this.labelActCom.Text = "Actualizar Comuna:";
             this.labelActCom.Click += new System.EventHandler(this.labelActCom_Click);
             // 
-            // labelComActual
+            // LabelComActual.
             // 
             this.labelComActual.AutoSize = true;
             this.labelComActual.Enabled = false;
@@ -281,7 +281,7 @@
             this.labelComActual.TabIndex = 233;
             this.labelComActual.Text = "Comuna Actual:";
             // 
-            // labelAcPro
+            // LabelAcPro.
             // 
             this.labelAcPro.AutoSize = true;
             this.labelAcPro.Enabled = false;
@@ -292,7 +292,7 @@
             this.labelAcPro.TabIndex = 232;
             this.labelAcPro.Text = "Provincia:";
             // 
-            // labelActReg
+            // LabelActReg.
             // 
             this.labelActReg.AutoSize = true;
             this.labelActReg.Enabled = false;
@@ -303,7 +303,7 @@
             this.labelActReg.TabIndex = 231;
             this.labelActReg.Text = "Región:";
             // 
-            // CBPro
+            // CBPro.
             // 
             this.CBPro.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBPro.Enabled = false;
@@ -317,7 +317,7 @@
             this.CBPro.TabStop = false;
             this.CBPro.SelectedIndexChanged += new System.EventHandler(this.CBPro_SelectedIndexChanged);
             // 
-            // CBReg
+            // CBReg.
             // 
             this.CBReg.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBReg.Enabled = false;
@@ -331,7 +331,7 @@
             this.CBReg.TabStop = false;
             this.CBReg.SelectedIndexChanged += new System.EventHandler(this.CBReg_SelectedIndexChanged);
             // 
-            // CBCom
+            // CBCom.
             // 
             this.CBCom.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBCom.Enabled = false;
@@ -343,7 +343,7 @@
             this.CBCom.TabStop = false;
             this.CBCom.SelectedIndexChanged += new System.EventHandler(this.CBCom_SelectedIndexChanged);
             // 
-            // Label2
+            // Label2.
             // 
             this.Label2.AutoSize = true;
             this.Label2.Enabled = false;
@@ -354,7 +354,7 @@
             this.Label2.TabIndex = 55;
             this.Label2.Text = "Rut Actual:";
             // 
-            // labelRtI
+            // LabelRtI.
             // 
             this.labelRtI.AutoSize = true;
             this.labelRtI.Enabled = false;
@@ -365,7 +365,7 @@
             this.labelRtI.TabIndex = 54;
             this.labelRtI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // TextGirF
+            // TextGirF.
             // 
             this.TextGirF.Enabled = false;
             this.TextGirF.Location = new System.Drawing.Point(9, 280);
@@ -375,7 +375,7 @@
             this.TextGirF.TabStop = false;
             this.TextGirF.TextChanged += new System.EventHandler(this.TextGirF_TextChanged);
             // 
-            // LabelGir
+            // LabelGir.
             // 
             this.LabelGir.AutoSize = true;
             this.LabelGir.Enabled = false;
@@ -387,7 +387,7 @@
             this.LabelGir.Text = "Giro:";
             this.LabelGir.Click += new System.EventHandler(this.LabelGir_Click);
             // 
-            // TextTelF
+            // TextTelF.
             // 
             this.TextTelF.Enabled = false;
             this.TextTelF.Location = new System.Drawing.Point(64, 100);
@@ -397,7 +397,7 @@
             this.TextTelF.TabStop = false;
             this.TextTelF.TextChanged += new System.EventHandler(this.TextTelF_TextChanged);
             // 
-            // TextEmaF
+            // TextEmaF.
             // 
             this.TextEmaF.Enabled = false;
             this.TextEmaF.Location = new System.Drawing.Point(9, 220);
@@ -407,7 +407,7 @@
             this.TextEmaF.TabStop = false;
             this.TextEmaF.TextChanged += new System.EventHandler(this.TextEmaF_TextChanged);
             // 
-            // LabelTel
+            // LabelTel.
             // 
             this.LabelTel.AutoSize = true;
             this.LabelTel.Enabled = false;
@@ -419,7 +419,7 @@
             this.LabelTel.Text = "Telefono:";
             this.LabelTel.Click += new System.EventHandler(this.LabelTel_Click);
             // 
-            // LabelEma
+            // LabelEma.
             // 
             this.LabelEma.AutoSize = true;
             this.LabelEma.Enabled = false;
@@ -431,7 +431,7 @@
             this.LabelEma.Text = "Email:";
             this.LabelEma.Click += new System.EventHandler(this.LabelEma_Click);
             // 
-            // LabelRut
+            // LabelRut.
             // 
             this.LabelRut.AutoSize = true;
             this.LabelRut.Enabled = false;
@@ -443,7 +443,7 @@
             this.LabelRut.Text = "Rut:";
             this.LabelRut.Click += new System.EventHandler(this.LabelRut_Click);
             // 
-            // LabelNom
+            // LabelNom.
             // 
             this.LabelNom.AutoSize = true;
             this.LabelNom.Enabled = false;
@@ -455,7 +455,7 @@
             this.LabelNom.Text = "Nombre:";
             this.LabelNom.Click += new System.EventHandler(this.LabelNom_Click);
             // 
-            // TextDireF
+            // TextDireF.
             // 
             this.TextDireF.Enabled = false;
             this.TextDireF.Location = new System.Drawing.Point(9, 160);
@@ -465,7 +465,7 @@
             this.TextDireF.TabStop = false;
             this.TextDireF.TextChanged += new System.EventHandler(this.TextDireF_TextChanged);
             // 
-            // TextNomF
+            // TextNomF.
             // 
             this.TextNomF.Enabled = false;
             this.TextNomF.Location = new System.Drawing.Point(339, 40);
@@ -476,7 +476,7 @@
             this.TextNomF.TextChanged += new System.EventHandler(this.TextNomF_TextChanged);
             this.TextNomF.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextNomF_KeyPress);
             // 
-            // LabelAcCom
+            // LabelAcCom.
             // 
             this.LabelAcCom.AutoSize = true;
             this.LabelAcCom.Enabled = false;
@@ -487,7 +487,7 @@
             this.LabelAcCom.TabIndex = 30;
             this.LabelAcCom.Text = "Comuna:";
             // 
-            // LabelDir
+            // LabelDir.
             // 
             this.LabelDir.AutoSize = true;
             this.LabelDir.Enabled = false;
@@ -499,7 +499,7 @@
             this.LabelDir.Text = "Dirección:";
             this.LabelDir.Click += new System.EventHandler(this.LabelDir_Click);
             // 
-            // TextRutF
+            // TextRutF.
             // 
             this.TextRutF.Enabled = false;
             this.TextRutF.Location = new System.Drawing.Point(64, 40);
@@ -509,7 +509,7 @@
             this.TextRutF.TabIndex = 1;
             this.TextRutF.TabStop = false;
             // 
-            // PCli_Act
+            // PCli_Act.
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

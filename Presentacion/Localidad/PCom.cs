@@ -1,18 +1,20 @@
-﻿// Accede a códigos de otra librería
+﻿// Importa dependencias.
 using Entidad;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Negocio;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Presentacion.AAClases;
-// Accede a códigos de otra librería
+using Presentacion.Usuarios;
+
+// Importa dependencias.
 using System;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Collections.Generic;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Data;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Reflection.Emit;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Windows.Forms;
 
 
@@ -44,6 +46,37 @@ namespace Presentacion
             CarDat();                           // Carga los datos iniciales en la grilla.
             LleComReg();                        // Carga las regiones en el ComboBox correspondiente.
             ThemeManager.ApplyExecutiveTheme(this); // Aplica tema ejecutivo.
+            ConfigurarPermisosComuna();
+        }
+        private void ConfigurarPermisosComuna()
+        {
+            var permisos = Sesion.Permisos;
+
+            if (permisos != null)
+            {
+                // Controla visibilidad de CheckBoxes según permisos.
+                CheckIng.Visible = (permisos.ILCom == "SI");
+                CheckMod.Visible = (permisos.ALCom == "SI");
+                CheckEli.Visible = (permisos.ELCom == "SI");
+
+                // Si no tiene ningún permiso, deshabilita controles.
+                if (permisos.ILCom != "SI" && permisos.ALCom != "SI" && permisos.ELCom != "SI")
+                {
+                    TextIngMod.Enabled = false;
+                    ComboIngModPro.Enabled = false;
+                    ComboIngModReg.Enabled = false;
+                }
+            }
+            else
+            {
+                // Si no hay permisos cargados, ocultar todo.
+                CheckIng.Visible = false;
+                CheckMod.Visible = false;
+                CheckEli.Visible = false;
+                TextIngMod.Enabled = false;
+                ComboIngModPro.Enabled = false;
+                ComboIngModReg.Enabled = false;
+            }
         }
 
         public void CarDat() // Carga los datos de comunas en la grilla.

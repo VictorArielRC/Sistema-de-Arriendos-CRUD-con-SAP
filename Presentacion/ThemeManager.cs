@@ -22,7 +22,7 @@ namespace Presentacion
 
         private static void ApplyStyle(Control control) // Aplica estilo a un control
         {
-            // 🎯 Label con jerarquía visual
+            // 🎯 Label con jerarquía visual.
             if (control is Label lbl) // Si el control es una etiqueta
             {
                 lbl.ForeColor = ColorTranslator.FromHtml("#2C3E50"); // Establece color de texto
@@ -40,7 +40,7 @@ namespace Presentacion
                         break; // Sale del switch
                 }
             }
-            // ✍️ TextBox con foco elegante
+            // ✍️ TextBox con foco elegante.
             else if (control is TextBox txt) // Si el control es un TextBox
             {
                 txt.BorderStyle = BorderStyle.FixedSingle; // Establece estilo de borde
@@ -51,13 +51,13 @@ namespace Presentacion
                 txt.Enter += (s, e) => txt.BackColor = ColorTranslator.FromHtml("#ECF8FF"); // Cambia fondo al entrar
                 txt.Leave += (s, e) => txt.BackColor = Color.White; // Restaura fondo al salir
             }
-            // 🧲 Botón con variaciones
+            // 🧲 Botón con variaciones.
             else if (control is Button btn) // Si el control es un botón
             {
                 bool esPrincipal = btn.Tag?.ToString() != "Secundario"; // Determina si es principal
                 EstiloBoton(btn, esPrincipal); // Aplica estilo al botón
             }
-            // 📋 DataGridView profesional
+            // 📋 DataGridView profesional.
             else if (control is DataGridView dgv) // Si el control es un DataGridView
             {
                 dgv.BackgroundColor = Color.White; // Establece color de fondo
@@ -69,7 +69,7 @@ namespace Presentacion
                 dgv.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold); // Establece fuente de encabezados
                 dgv.EnableHeadersVisualStyles = false; // Deshabilita estilos visuales de encabezados
             }
-            // 🧰 ToolStrip ejecutivo
+            // 🧰 ToolStrip ejecutivo.
             else if (control is ToolStrip toolStrip) // Si el control es un ToolStrip
             {
                 toolStrip.BackColor = ColorTranslator.FromHtml("#2C3E50"); // Establece color de fondo
@@ -83,14 +83,14 @@ namespace Presentacion
                 }
             }
 
-            // ⛏️ Recursivo: aplica a contenedores
+            // ⛏️ Recursivo: aplica a contenedores.
             foreach (Control child in control.Controls) // Itera sobre controles hijos
             {
                 ApplyStyle(child); // Aplica estilo recursivamente
             }
         }
 
-        // 🔧 Estilos de botón (primario/secundario)
+        // 🔧 Estilos de botón (primario/secundario).
         private static void EstiloBoton(Button btn, bool esPrincipal) // Aplica estilo al botón
         {
             btn.FlatStyle = FlatStyle.Flat; // Establece estilo plano
@@ -117,4 +117,5 @@ namespace Presentacion
         }
     }
 }
+
 

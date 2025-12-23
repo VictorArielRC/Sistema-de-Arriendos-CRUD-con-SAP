@@ -1,8 +1,8 @@
-﻿// Accede a códigos de otra librería
+﻿// Importa dependencias.
 using Datos;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Entidad;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Collections.Generic;
 
 
@@ -42,7 +42,7 @@ namespace Negocio
         }
         public int ObtenerUltimoId() // Obtiene el último ID de cliente
         {
-            // Delegar la llamada al método correspondiente en la capa de datos
+            // Delegar la llamada al método correspondiente en la capa de datos.
             return DCliente.Instancia.ObtenerUltimoId(); // Retorna el último ID
         }
     }

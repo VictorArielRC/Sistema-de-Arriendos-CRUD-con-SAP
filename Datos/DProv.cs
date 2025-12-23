@@ -1,12 +1,12 @@
-﻿// Accede a códigos de otra librería
+﻿// Importa dependencias.
 using System;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Collections.Generic;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Data;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Data.SqlClient;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Entidad;
 
 

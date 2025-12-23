@@ -54,7 +54,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Grilla)).BeginInit();
             this.SuspendLayout();
             // 
-            // ButClien
+            // ButClien.
             // 
             this.ButClien.Enabled = false;
             this.ButClien.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -70,7 +70,7 @@
             this.ButClien.Visible = false;
             this.ButClien.Click += new System.EventHandler(this.ButClien_Click);
             // 
-            // ButLimBus
+            // ButLimBus.
             // 
             this.ButLimBus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButLimBus.Location = new System.Drawing.Point(635, 76);
@@ -84,7 +84,7 @@
             this.ButLimBus.UseVisualStyleBackColor = true;
             this.ButLimBus.Click += new System.EventHandler(this.ButLimBus_Click);
             // 
-            // ButBus
+            // ButBus.
             // 
             this.ButBus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButBus.Location = new System.Drawing.Point(486, 76);
@@ -98,7 +98,7 @@
             this.ButBus.UseVisualStyleBackColor = true;
             this.ButBus.Click += new System.EventHandler(this.ButBus_Click);
             // 
-            // TextBus
+            // TextBus.
             // 
             this.TextBus.Location = new System.Drawing.Point(87, 84);
             this.TextBus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -109,7 +109,7 @@
             this.TextBus.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.TextBus.TextChanged += new System.EventHandler(this.TextBus_TextChanged);
             // 
-            // ComboBus
+            // ComboBus.
             // 
             this.ComboBus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComboBus.FormattingEnabled = true;
@@ -119,7 +119,7 @@
             this.ComboBus.Size = new System.Drawing.Size(142, 28);
             this.ComboBus.TabIndex = 240;
             // 
-            // label4
+            // Label4.
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(93, 53);
@@ -128,7 +128,7 @@
             this.label4.TabIndex = 239;
             this.label4.Text = "Buscar Por:";
             // 
-            // TextBox1
+            // TextBox1.
             // 
             this.TextBox1.Enabled = false;
             this.TextBox1.Location = new System.Drawing.Point(575, 436);
@@ -139,7 +139,7 @@
             this.TextBox1.TabStop = false;
             this.TextBox1.Visible = false;
             // 
-            // ButEli
+            // ButEli.
             // 
             this.ButEli.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ButEli.Enabled = false;
@@ -156,7 +156,7 @@
             this.ButEli.Visible = false;
             this.ButEli.Click += new System.EventHandler(this.ButEli_Click);
             // 
-            // ButMod
+            // ButMod.
             // 
             this.ButMod.Enabled = false;
             this.ButMod.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -172,7 +172,7 @@
             this.ButMod.Visible = false;
             this.ButMod.Click += new System.EventHandler(this.ButMod_Click);
             // 
-            // ButSal
+            // ButSal.
             // 
             this.ButSal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButSal.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -186,7 +186,7 @@
             this.ButSal.UseVisualStyleBackColor = true;
             this.ButSal.Click += new System.EventHandler(this.ButSal_Click);
             // 
-            // ButVol
+            // ButVol.
             // 
             this.ButVol.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButVol.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -200,7 +200,7 @@
             this.ButVol.UseVisualStyleBackColor = true;
             this.ButVol.Click += new System.EventHandler(this.ButVol_Click);
             // 
-            // Grilla
+            // Grilla.
             // 
             this.Grilla.AllowUserToAddRows = false;
             this.Grilla.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -229,7 +229,7 @@
             this.Grilla.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Grilla_CellContentClick);
             this.Grilla.DoubleClick += new System.EventHandler(this.Grilla_DoubleClick);
             // 
-            // Column1
+            // Column1.
             // 
             this.Column1.HeaderText = "Column1";
             this.Column1.MinimumWidth = 6;
@@ -238,7 +238,7 @@
             this.Column1.Visible = false;
             this.Column1.Width = 125;
             // 
-            // IdCli
+            // IdCli.
             // 
             this.IdCli.HeaderText = "IdCli";
             this.IdCli.MinimumWidth = 6;
@@ -247,7 +247,7 @@
             this.IdCli.Visible = false;
             this.IdCli.Width = 125;
             // 
-            // Nombre
+            // Nombre.
             // 
             this.Nombre.HeaderText = "Nombre";
             this.Nombre.MinimumWidth = 8;
@@ -255,7 +255,7 @@
             this.Nombre.ReadOnly = true;
             this.Nombre.Width = 400;
             // 
-            // Rut
+            // Rut.
             // 
             this.Rut.HeaderText = "Rut";
             this.Rut.MinimumWidth = 8;
@@ -263,7 +263,7 @@
             this.Rut.ReadOnly = true;
             this.Rut.Width = 120;
             // 
-            // IdCom
+            // IdCom.
             // 
             this.IdCom.HeaderText = "IdCom";
             this.IdCom.MinimumWidth = 8;
@@ -272,7 +272,7 @@
             this.IdCom.Visible = false;
             this.IdCom.Width = 150;
             // 
-            // Comuna
+            // Comuna.
             // 
             this.Comuna.HeaderText = "Comuna";
             this.Comuna.MinimumWidth = 8;
@@ -280,7 +280,7 @@
             this.Comuna.ReadOnly = true;
             this.Comuna.Width = 240;
             // 
-            // Direccion
+            // Direccion.
             // 
             this.Direccion.HeaderText = "Direccion";
             this.Direccion.MinimumWidth = 8;
@@ -289,7 +289,7 @@
             this.Direccion.Visible = false;
             this.Direccion.Width = 150;
             // 
-            // Tel
+            // Tel.
             // 
             this.Tel.HeaderText = "Tel";
             this.Tel.MinimumWidth = 8;
@@ -298,7 +298,7 @@
             this.Tel.Visible = false;
             this.Tel.Width = 150;
             // 
-            // Email
+            // Email.
             // 
             this.Email.HeaderText = "Email";
             this.Email.MinimumWidth = 8;
@@ -307,7 +307,7 @@
             this.Email.Visible = false;
             this.Email.Width = 150;
             // 
-            // Giro
+            // Giro.
             // 
             this.Giro.HeaderText = "Giro";
             this.Giro.MinimumWidth = 8;
@@ -315,7 +315,7 @@
             this.Giro.ReadOnly = true;
             this.Giro.Width = 200;
             // 
-            // label1
+            // Label1.
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(400, 18);
@@ -324,7 +324,7 @@
             this.label1.TabIndex = 232;
             this.label1.Text = "Información sobre Cliente";
             // 
-            // PCli_Con
+            // PCli_Con.
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

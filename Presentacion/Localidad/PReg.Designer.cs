@@ -53,7 +53,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Grilla)).BeginInit();
             this.SuspendLayout();
             // 
-            // ButLimBus
+            // ButLimBus.
             // 
             this.ButLimBus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButLimBus.Location = new System.Drawing.Point(372, 71);
@@ -66,7 +66,7 @@
             this.ButLimBus.UseVisualStyleBackColor = true;
             this.ButLimBus.Click += new System.EventHandler(this.ButLimBus_Click);
             // 
-            // ButBus
+            // ButBus.
             // 
             this.ButBus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButBus.Location = new System.Drawing.Point(286, 71);
@@ -79,7 +79,7 @@
             this.ButBus.UseVisualStyleBackColor = true;
             this.ButBus.Click += new System.EventHandler(this.ButBus_Click);
             // 
-            // TextBus
+            // TextBus.
             // 
             this.TextBus.Location = new System.Drawing.Point(212, 102);
             this.TextBus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -90,7 +90,7 @@
             this.TextBus.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.TextBus.TextChanged += new System.EventHandler(this.TextBus_TextChanged);
             // 
-            // ComboBusReg
+            // ComboBusReg.
             // 
             this.ComboBusReg.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComboBusReg.FormattingEnabled = true;
@@ -102,7 +102,7 @@
             this.ComboBusReg.Visible = false;
             this.ComboBusReg.SelectedIndexChanged += new System.EventHandler(this.ComboBusReg_SelectedIndexChanged);
             // 
-            // textId
+            // TextId.
             // 
             this.textId.Enabled = false;
             this.textId.Location = new System.Drawing.Point(95, 407);
@@ -111,7 +111,7 @@
             this.textId.TabIndex = 223;
             this.textId.Visible = false;
             // 
-            // label7
+            // Label7.
             // 
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(575, 156);
@@ -119,7 +119,7 @@
             this.label7.Size = new System.Drawing.Size(0, 16);
             this.label7.TabIndex = 221;
             // 
-            // TextIngMod
+            // TextIngMod.
             // 
             this.TextIngMod.Enabled = false;
             this.TextIngMod.Location = new System.Drawing.Point(575, 182);
@@ -132,7 +132,7 @@
             this.TextIngMod.TextChanged += new System.EventHandler(this.TextIngMod_TextChanged);
             this.TextIngMod.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextIngMod_KeyPress);
             // 
-            // Grilla
+            // Grilla.
             // 
             this.Grilla.AllowUserToAddRows = false;
             this.Grilla.AllowUserToDeleteRows = false;
@@ -156,7 +156,7 @@
             this.Grilla.TabIndex = 222;
             this.Grilla.DoubleClick += new System.EventHandler(this.Grilla_DoubleClick);
             // 
-            // Selec
+            // Selec.
             // 
             this.Selec.HeaderText = "";
             this.Selec.MinimumWidth = 6;
@@ -167,7 +167,7 @@
             this.Selec.Visible = false;
             this.Selec.Width = 20;
             // 
-            // IdReg
+            // IdReg.
             // 
             this.IdReg.HeaderText = "Id";
             this.IdReg.MinimumWidth = 6;
@@ -176,7 +176,7 @@
             this.IdReg.Visible = false;
             this.IdReg.Width = 350;
             // 
-            // Nombre
+            // Nombre.
             // 
             this.Nombre.HeaderText = "Regiones";
             this.Nombre.MinimumWidth = 6;
@@ -184,7 +184,7 @@
             this.Nombre.ReadOnly = true;
             this.Nombre.Width = 333;
             // 
-            // label2
+            // Label2.
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(212, 74);
@@ -193,7 +193,7 @@
             this.label2.TabIndex = 212;
             this.label2.Text = "Buscar:";
             // 
-            // CheckEli
+            // CheckEli.
             // 
             this.CheckEli.AutoSize = true;
             this.CheckEli.Enabled = false;
@@ -207,7 +207,7 @@
             this.CheckEli.UseVisualStyleBackColor = true;
             this.CheckEli.CheckedChanged += new System.EventHandler(this.CheckEli_CheckedChanged);
             // 
-            // CheckMod
+            // CheckMod.
             // 
             this.CheckMod.AutoSize = true;
             this.CheckMod.Enabled = false;
@@ -221,7 +221,7 @@
             this.CheckMod.UseVisualStyleBackColor = true;
             this.CheckMod.CheckedChanged += new System.EventHandler(this.CheckMod_CheckedChanged);
             // 
-            // CheckIng
+            // CheckIng.
             // 
             this.CheckIng.AutoSize = true;
             this.CheckIng.Location = new System.Drawing.Point(575, 72);
@@ -234,7 +234,7 @@
             this.CheckIng.UseVisualStyleBackColor = true;
             this.CheckIng.CheckedChanged += new System.EventHandler(this.CheckIng_CheckedChanged);
             // 
-            // label1
+            // Label1.
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(410, 26);
@@ -243,7 +243,7 @@
             this.label1.TabIndex = 208;
             this.label1.Text = "Información sobre Regiones";
             // 
-            // ButEli
+            // ButEli.
             // 
             this.ButEli.Enabled = false;
             this.ButEli.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -259,7 +259,7 @@
             this.ButEli.Visible = false;
             this.ButEli.Click += new System.EventHandler(this.ButEli_Click);
             // 
-            // ButMod
+            // ButMod.
             // 
             this.ButMod.Enabled = false;
             this.ButMod.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -275,7 +275,7 @@
             this.ButMod.Visible = false;
             this.ButMod.Click += new System.EventHandler(this.ButMod_Click);
             // 
-            // ButSal
+            // ButSal.
             // 
             this.ButSal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButSal.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -289,7 +289,7 @@
             this.ButSal.UseVisualStyleBackColor = true;
             this.ButSal.Click += new System.EventHandler(this.ButSal_Click);
             // 
-            // ButLim
+            // ButLim.
             // 
             this.ButLim.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButLim.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -303,7 +303,7 @@
             this.ButLim.UseVisualStyleBackColor = true;
             this.ButLim.Click += new System.EventHandler(this.ButLim_Click);
             // 
-            // ButVol
+            // ButVol.
             // 
             this.ButVol.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButVol.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -317,7 +317,7 @@
             this.ButVol.UseVisualStyleBackColor = true;
             this.ButVol.Click += new System.EventHandler(this.ButVol_Click);
             // 
-            // ButIng
+            // ButIng.
             // 
             this.ButIng.Enabled = false;
             this.ButIng.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -333,7 +333,7 @@
             this.ButIng.Visible = false;
             this.ButIng.Click += new System.EventHandler(this.ButIng_Click);
             // 
-            // PReg
+            // PReg.
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

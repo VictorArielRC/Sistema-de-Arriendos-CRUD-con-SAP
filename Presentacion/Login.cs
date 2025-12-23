@@ -1,135 +1,153 @@
-﻿// Accede a códigos de otra librería
+﻿// Importa las entidades del sistema.
 using Entidad;
-// Accede a códigos de otra librería
+// Importa la lógica de negocio.
 using Negocio;
-// Accede a códigos de otra librería
+// Importa funcionalidades básicas de .NET.
 using System;
-// Accede a códigos de otra librería
+// Importa componentes de formularios Windows.
 using System.Windows.Forms;
-// Accede a códigos de otra librería
+// Importa el espacio de usuarios.
+using Presentacion.Usuarios;
+// Usa la clase Application de Windows.
 using Application = System.Windows.Forms.Application;
 
-
+// Define el espacio de nombres.
 namespace Presentacion
 {
+    // Clase del formulario de inicio sesión.
     public partial class Login : Form
     {
-
+        // Constructor del formulario Login.
         public Login()
         {
+            // Inicializa los componentes del formulario.
             InitializeComponent();
-        
         }
-        // Habilita o deshabilita el botón de Ingreso.
+
+        // Habilita o deshabilita botón ingreso.
         public void HabBotIng()
         {
-            // Si ambos campos de texto no están vacíos.
+            // Si ambos campos tienen texto.
             if ((textBox1.Text.Trim() != "") && (textBox2.Text.Trim() != ""))
             {
-                // Habilita el botón 'button1'.
+                // Habilita el botón de ingreso.
                 button1.Enabled = true;
-                ButLim.Enabled = true; // Habilita el botón de limpiar
+                // Habilita el botón de limpiar.
+                ButLim.Enabled = true;
             }
-            // Si al menos uno de los campos está vacío.
+            // Si algún campo está vacío.
             else
             {
-                // Deshabilita el botón 'button1'.
+                // Deshabilita el botón de ingreso.
                 button1.Enabled = false;
-                ButLim.Enabled = false; // Deshabilita el botón de limpiar
+                // Deshabilita el botón de limpiar.
+                ButLim.Enabled = false;
             }
         }
 
-        // Este método se ejecuta cuando el formulario 'Login' se carga.
+        // Evento al cargar el formulario.
         private void Login_Load(object sender, EventArgs e)
         {
-
+            // Aplica estilos visuales al formulario.
             LoginVisualStyleManager.Apply(this);
-            //estilos visuales
-
         }
 
-        // Este método se activa cuando el texto en 'textBox1' cambia.
+        // Evento cambio texto campo usuario.
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            // Llama al método para habilitar o deshabilitar el botón de ingreso.
+            // Verifica estado de botones ingreso.
             HabBotIng();
         }
 
-        // Este método se activa cuando el texto en 'textBox2' cambia.
+        // Evento cambio texto campo contraseña.
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            // Llama al método para habilitar o deshabilitar el botón de ingreso.
+            // Verifica estado de botones ingreso.
             HabBotIng();
         }
 
-        // Este método se activa cuando el estado del checkbox 'CHBVPass' cambia.
+        // Evento cambio checkbox mostrar contraseña.
         private void CHBVPass_CheckedChanged(object sender, EventArgs e)
         {
-            // Si el checkbox está marcado (mostrar contraseña).
+            // Si checkbox está marcado.
             if (CHBVPass.CheckState == CheckState.Checked)
             {
-                // Cambia el carácter de contraseña de 'textBox2' a nulo (hace visible el texto).
+                // Muestra el texto de contraseña.
                 textBox2.PasswordChar = '\0';
             }
-            // Si el checkbox no está marcado (ocultar contraseña).
+            // Si checkbox está desmarcado.
             else
             {
-                // Cambia el carácter de contraseña de 'textBox2' a asterisco (oculta el texto).
+                // Oculta texto con asteriscos.
                 textBox2.PasswordChar = '*';
             }
         }
 
-        // Este método se activa cuando se hace clic en 'button1' (botón de inicio de sesión).
+        // Evento clic botón iniciar sesión.
         private void button1_Click(object sender, EventArgs e)
         {
-            // Crea una nueva instancia de la entidad de usuario 'EUsua'.
-            EUsua Ent = new EUsua
+            // Crea objeto entidad usuario.
+            EUsuarios Ent = new EUsuarios
             {
-                // Asigna el texto de 'textBox1' al nombre de usuario.
+                // Asigna nombre ingresado.
                 Nombre = textBox1.Text,
-                // Asigna el texto de 'textBox2' a la contraseña.
+                // Asigna contraseña ingresada.
                 Pass = textBox2.Text
             };
 
-            // Llama a la capa de negocio 'NUsua' para verificar las credenciales.
-            Respuesta<bool> resultado = NUsua.Verificar(Ent);
+            // Verifica credenciales del usuario.
+            Respuesta<bool> resultado = NUsuarios.Verificar(Ent);
 
-            // Si la verificación de inicio de sesión fue exitosa.
+            // Si credenciales son correctas.
             if (resultado.estado)
             {
-                // Muestra un mensaje de inicio de sesión exitoso.
-                MessageBox.Show("Bienvenido el Inicio de sesion ha sido EXITOSO");
-                // Crea una nueva instancia del formulario 'Menu'.
+                // Guarda identificador de usuario sesión.
+                Sesion.IdUsu = Ent.IdUsu;
+                // Guarda nombre de usuario sesión.
+                Sesion.NombreUsuario = Ent.Nombre;
+                // Guarda identificador de permiso sesión.
+                Sesion.IdPer = Ent.IdPer;
+
+                // Carga permisos del usuario actual.
+                Sesion.Permisos = NPermisos.ObtenerPorId(Ent.IdPer);
+
+                // Muestra mensaje de bienvenida.
+                MessageBox.Show("Bienvenido, el inicio de sesión ha sido EXITOSO");
+
+                // Crea instancia del menú principal.
                 Menu MP = new Menu();
-                // Establece el texto de la etiqueta de usuario en el menú principal.
+                // Asigna nombre usuario a etiqueta.
                 MP.labelUsua.Text = textBox1.Text;
-                // Muestra el formulario 'Menu'.
+                // Muestra el formulario menú principal.
                 MP.Show();
-                // Oculta el formulario de inicio de sesión actual.
+
+                // Oculta el formulario de login.
                 this.Hide();
             }
-            // Si la verificación de inicio de sesión falló.
+            // Si credenciales son incorrectas.
             else
             {
-                // Muestra un mensaje de error por credenciales incorrectas.
+                // Muestra mensaje de error credenciales.
                 MessageBox.Show("Usuario o contraseña incorrectos");
             }
         }
 
-        // Este método se activa cuando se hace clic en 'ButLim' (botón Limpiar).
+        // Evento clic botón limpiar.
         private void ButLim_Click(object sender, EventArgs e)
         {
-            // Borra el texto de 'textBox1'.
+            // Limpia el campo de usuario.
             textBox1.Text = "";
-            // Borra el texto de 'textBox2'.
+            // Limpia el campo de contraseña.
             textBox2.Text = "";
         }
 
-        // Este método se activa cuando se hace clic en 'button2' (botón Salir).
+        // Evento clic botón salir.
         private void button2_Click(object sender, EventArgs e)
         {
-            // Cierra la aplicación por completo.
+            // Cierra toda la aplicación.
             Application.Exit();
         }
     }
+    // Cierra la clase.
 }
+// Cierra el namespace.

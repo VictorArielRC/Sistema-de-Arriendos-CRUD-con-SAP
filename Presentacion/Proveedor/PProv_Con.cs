@@ -1,16 +1,17 @@
-﻿// Accede a códigos de otra librería
+﻿// Importa dependencias.
 using Entidad;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Negocio;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Presentacion.AAClases;
-// Accede a códigos de otra librería
+using Presentacion.Usuarios;
+// Importa dependencias.
 using System;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Collections.Generic;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Windows.Forms;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Application = System.Windows.Forms.Application;
 
 
@@ -46,6 +47,24 @@ namespace Presentacion.Proveedor
             ComboBus.ValueMember = "Valor";   // Establece el valor asociado en el ComboBox.
             ComboBus.SelectedIndex = 0;       // Selecciona el primer elemento por defecto.
             CarDat(); // Llama al método para cargar los datos en la grilla.
+            ConfigurarPermisosProveedores();
+        }
+        private void ConfigurarPermisosProveedores()
+        {
+            var permisos = Sesion.Permisos;
+
+            if (permisos != null)
+            {
+                // Controla visibilidad de botones según permisos.
+                ButMod.Visible = (permisos.AProv == "SI");
+                ButEli.Visible = (permisos.EProv == "SI");
+            }
+            else
+            {
+                // Si no hay permisos cargados, ocultar botones.
+                ButMod.Visible = false;
+                ButEli.Visible = false;
+            }
         }
 
         public void CarDat() // Carga los datos de los proveedores en la DataGridView.
@@ -197,3 +216,4 @@ namespace Presentacion.Proveedor
         }
     }
 }
+

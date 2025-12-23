@@ -58,7 +58,7 @@
             this.GroupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // TextCArrI
+            // TextCArrI.
             // 
             this.TextCArrI.Enabled = false;
             this.TextCArrI.Location = new System.Drawing.Point(522, 425);
@@ -68,7 +68,7 @@
             this.TextCArrI.TabStop = false;
             this.TextCArrI.Visible = false;
             // 
-            // TextCIniI
+            // TextCIniI.
             // 
             this.TextCIniI.Location = new System.Drawing.Point(447, 425);
             this.TextCIniI.Name = "TextCIniI";
@@ -77,7 +77,7 @@
             this.TextCIniI.TabStop = false;
             this.TextCIniI.Visible = false;
             // 
-            // TextNomI
+            // TextNomI.
             // 
             this.TextNomI.Enabled = false;
             this.TextNomI.Location = new System.Drawing.Point(372, 425);
@@ -87,7 +87,7 @@
             this.TextNomI.TabStop = false;
             this.TextNomI.Visible = false;
             // 
-            // ButMod
+            // ButMod.
             // 
             this.ButMod.Enabled = false;
             this.ButMod.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -102,7 +102,7 @@
             this.ButMod.UseVisualStyleBackColor = true;
             this.ButMod.Click += new System.EventHandler(this.ButMod_Click);
             // 
-            // TextVArrI
+            // TextVArrI.
             // 
             this.TextVArrI.Enabled = false;
             this.TextVArrI.Location = new System.Drawing.Point(447, 467);
@@ -112,7 +112,7 @@
             this.TextVArrI.TabStop = false;
             this.TextVArrI.Visible = false;
             // 
-            // TextTActI
+            // TextTActI.
             // 
             this.TextTActI.Enabled = false;
             this.TextTActI.Location = new System.Drawing.Point(372, 467);
@@ -122,7 +122,7 @@
             this.TextTActI.TabStop = false;
             this.TextTActI.Visible = false;
             // 
-            // TextCActI
+            // TextCActI.
             // 
             this.TextCActI.Enabled = false;
             this.TextCActI.Location = new System.Drawing.Point(297, 467);
@@ -132,7 +132,7 @@
             this.TextCActI.TabStop = false;
             this.TextCActI.Visible = false;
             // 
-            // TextBox1
+            // TextBox1.
             // 
             this.TextBox1.Location = new System.Drawing.Point(297, 425);
             this.TextBox1.Name = "TextBox1";
@@ -141,7 +141,7 @@
             this.TextBox1.TabStop = false;
             this.TextBox1.Visible = false;
             // 
-            // Label1
+            // Label1.
             // 
             this.Label1.AutoSize = true;
             this.Label1.Location = new System.Drawing.Point(429, 45);
@@ -150,7 +150,7 @@
             this.Label1.TabIndex = 125;
             this.Label1.Text = "Actualizar Productos";
             // 
-            // GroupBox1
+            // GroupBox1.
             // 
             this.GroupBox1.Controls.Add(this.button1);
             this.GroupBox1.Controls.Add(this.TextFecIni);
@@ -176,7 +176,7 @@
             this.GroupBox1.TabStop = false;
             this.GroupBox1.Text = "Datos";
             // 
-            // button1
+            // Button1.
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -190,7 +190,7 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // TextFecIni
+            // TextFecIni.
             // 
             this.TextFecIni.Enabled = false;
             this.TextFecIni.Location = new System.Drawing.Point(207, 60);
@@ -199,7 +199,7 @@
             this.TextFecIni.TabIndex = 63;
             this.TextFecIni.TabStop = false;
             // 
-            // TextVArrF
+            // TextVArrF.
             // 
             this.TextVArrF.Enabled = false;
             this.TextVArrF.Location = new System.Drawing.Point(220, 210);
@@ -210,7 +210,7 @@
             this.TextVArrF.TextChanged += new System.EventHandler(this.TextVArrF_TextChanged);
             this.TextVArrF.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextVArrF_KeyPress);
             // 
-            // TextTActF
+            // TextTActF.
             // 
             this.TextTActF.Enabled = false;
             this.TextTActF.Location = new System.Drawing.Point(220, 180);
@@ -219,7 +219,7 @@
             this.TextTActF.TabIndex = 13;
             this.TextTActF.TabStop = false;
             // 
-            // ButSal
+            // ButSal.
             // 
             this.ButSal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButSal.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -234,7 +234,7 @@
             this.ButSal.UseVisualStyleBackColor = true;
             this.ButSal.Click += new System.EventHandler(this.ButSal_Click);
             // 
-            // TextCArrF
+            // TextCArrF.
             // 
             this.TextCArrF.Enabled = false;
             this.TextCArrF.Location = new System.Drawing.Point(220, 150);
@@ -245,7 +245,7 @@
             this.TextCArrF.TextChanged += new System.EventHandler(this.TextCArrF_TextChanged);
             this.TextCArrF.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextCArrF_KeyPress);
             // 
-            // ButVol
+            // ButVol.
             // 
             this.ButVol.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButVol.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -260,7 +260,7 @@
             this.ButVol.UseVisualStyleBackColor = true;
             this.ButVol.Click += new System.EventHandler(this.ButVol_Click);
             // 
-            // TextCActF
+            // TextCActF.
             // 
             this.TextCActF.Enabled = false;
             this.TextCActF.Location = new System.Drawing.Point(220, 120);
@@ -272,7 +272,7 @@
             this.TextCActF.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextCActF_KeyPress);
             this.TextCActF.Leave += new System.EventHandler(this.TextCActF_Leave);
             // 
-            // TextCIniF
+            // TextCIniF.
             // 
             this.TextCIniF.Enabled = false;
             this.TextCIniF.Location = new System.Drawing.Point(220, 90);
@@ -283,7 +283,7 @@
             this.TextCIniF.TextChanged += new System.EventHandler(this.TextCIniF_TextChanged);
             this.TextCIniF.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextCIniF_KeyPress);
             // 
-            // TextNomF
+            // TextNomF.
             // 
             this.TextNomF.Enabled = false;
             this.TextNomF.Location = new System.Drawing.Point(100, 30);
@@ -293,7 +293,7 @@
             this.TextNomF.TabStop = false;
             this.TextNomF.TextChanged += new System.EventHandler(this.TextNomF_TextChanged);
             // 
-            // LabelVArr
+            // LabelVArr.
             // 
             this.LabelVArr.AutoSize = true;
             this.LabelVArr.Enabled = false;
@@ -304,7 +304,7 @@
             this.LabelVArr.Text = "Valor Arriendo por Unidad:";
             this.LabelVArr.Click += new System.EventHandler(this.LabelVArr_Click);
             // 
-            // Label7
+            // Label7.
             // 
             this.Label7.AutoSize = true;
             this.Label7.Enabled = false;
@@ -314,7 +314,7 @@
             this.Label7.TabIndex = 5;
             this.Label7.Text = "Total Actual:";
             // 
-            // LabelCArr
+            // LabelCArr.
             // 
             this.LabelCArr.AutoSize = true;
             this.LabelCArr.Enabled = false;
@@ -325,7 +325,7 @@
             this.LabelCArr.Text = "Cantidad Arrendada:";
             this.LabelCArr.Click += new System.EventHandler(this.LabelCArr_Click);
             // 
-            // LabeCAct
+            // LabeCAct.
             // 
             this.LabeCAct.AutoSize = true;
             this.LabeCAct.Enabled = false;
@@ -336,7 +336,7 @@
             this.LabeCAct.Text = "Cantidad Actual:";
             this.LabeCAct.Click += new System.EventHandler(this.LabeCAct_Click);
             // 
-            // LabelCanI
+            // LabelCanI.
             // 
             this.LabelCanI.AutoSize = true;
             this.LabelCanI.Enabled = false;
@@ -347,7 +347,7 @@
             this.LabelCanI.Text = "Cantidad Inicial:";
             this.LabelCanI.Click += new System.EventHandler(this.LabelCanI_Click);
             // 
-            // Label3
+            // Label3.
             // 
             this.Label3.AutoSize = true;
             this.Label3.Enabled = false;
@@ -357,7 +357,7 @@
             this.Label3.TabIndex = 1;
             this.Label3.Text = "Fecha de Incorparación:";
             // 
-            // LabelNom
+            // LabelNom.
             // 
             this.LabelNom.AutoSize = true;
             this.LabelNom.Enabled = false;
@@ -368,7 +368,7 @@
             this.LabelNom.Text = "Nombre:";
             this.LabelNom.Click += new System.EventHandler(this.LabelNom_Click);
             // 
-            // PProd_Act
+            // PProd_Act.
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

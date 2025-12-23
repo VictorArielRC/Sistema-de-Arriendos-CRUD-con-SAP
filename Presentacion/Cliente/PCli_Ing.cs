@@ -1,16 +1,16 @@
-﻿// Accede a códigos de otra librería
+﻿// Importa dependencias.
 using Entidad;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Negocio;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Presentacion.AAClases;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Data;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Windows.Forms;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Application = System.Windows.Forms.Application;
 
 
@@ -20,7 +20,7 @@ namespace Presentacion.Cliente
     {
         ValidaRut Rut = new ValidaRut(); // Instancia validador de RUT
         ECliente Ent = new ECliente(); // Crea un nuevo cliente
-        //NCliente Neg = new NCliente();
+        // NCliente Neg = new NCliente();
         NLocCom NegCom = new NLocCom(); // Instancia la lógica de comuna
         NLocPro NegPro = new NLocPro(); // Instancia la lógica de provincia
         NLocReg NegReg = new NLocReg(); // Instancia la lógica de región
@@ -326,3 +326,4 @@ namespace Presentacion.Cliente
 
     }
 }
+

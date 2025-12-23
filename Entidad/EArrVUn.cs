@@ -1,5 +1,5 @@
 ﻿using System;
-// se utilizan para organizar el código
+// Se utiliza para organizar el código.
 namespace Entidad
 {
     public class EArrVUn // la clase es accesible desde cualquier otra parte del código
@@ -73,3 +73,4 @@ namespace Entidad
         }
     }
 }
+

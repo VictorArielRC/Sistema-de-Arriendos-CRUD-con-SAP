@@ -1,12 +1,12 @@
-﻿// Accede a códigos de otra librería
+﻿// Importa dependencias.
 using Presentacion.Usuarios;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Collections.Generic;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Linq;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Windows.Forms;
 
 
@@ -20,9 +20,13 @@ namespace Presentacion
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles(); // Habilita estilos visuales
-            Application.SetCompatibleTextRenderingDefault(false); // Deshabilita renderizado de texto
-            Application.Run(new Login()); // Ejecuta el formulario de inicio
+            Application.EnableVisualStyles(); 
+            // Habilita estilos visuales.
+            Application.SetCompatibleTextRenderingDefault(false);
+            // Deshabilita renderizado de texto.
+            Application.Run(new Login()); 
+            // Ejecuta el formulario de inicio.
         }
     }
 }
+

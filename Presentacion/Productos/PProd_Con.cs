@@ -1,30 +1,32 @@
-﻿// Accede a códigos de otra librería
+﻿// Importa dependencias.
 using Entidad;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Negocio;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Presentacion.AAClases;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Presentacion.ArriFinal;
-// Accede a códigos de otra librería
+using Presentacion.Usuarios;
+
+// Importa dependencias.
 using System;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Collections.Generic;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.ComponentModel;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Data;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Diagnostics.Eventing.Reader;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Drawing;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Linq;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Text;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Windows.Forms;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 
@@ -34,7 +36,7 @@ namespace Presentacion.Productos
     {
         EProd Ent = new EProd(); // Instancia de la entidad Producto.
         NProd Neg = new NProd(); // Instancia de la capa de negocio Producto.
-                                 //public GenerarArr FormularioPadre; // Comentado: Referencia anterior a GenerarArr.
+                                 // Public GenerarArr FormularioPadre; // Comentado: Referencia anterior a GenerarArr.
         private PProd_Car currentPProdCarInstance; // Instancia actual de PProd_Car.
         public PArrIng FormularioPadre; // Referencia al formulario padre PArrIng.
 
@@ -63,8 +65,28 @@ namespace Presentacion.Productos
             ComboBusReg.ValueMember = "Valor";   // Establece el valor asociado en el ComboBox.
             ComboBusReg.SelectedIndex = 0;       // Selecciona el primer elemento por defecto.
             CarDat(); // Carga los datos en la grilla.
+            ConfigurarPermisosProductos();
         }
+        private void ConfigurarPermisosProductos()
+        {
+            var permisos = Sesion.Permisos;
 
+            if (permisos != null)
+            {
+                // Controla visibilidad de botones según permisos.
+                ButMod.Visible = (permisos.AProductos == "SI");
+                ButEli.Visible = (permisos.EProductos == "SI");
+
+                // Si se abre desde PArrIng, ButCarProd ya está visible.
+                // No lo ocultamos aquí para no interferir con esa funcionalidad.
+            }
+            else
+            {
+                // Si no hay permisos cargados, ocultar botones.
+                ButMod.Visible = false;
+                ButEli.Visible = false;
+            }
+        }
         public void CarDat() // Carga los datos en la grilla.
         {
             try
@@ -253,3 +275,4 @@ namespace Presentacion.Productos
         }
     }
 }
+

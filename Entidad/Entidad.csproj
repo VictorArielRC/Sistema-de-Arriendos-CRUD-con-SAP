@@ -51,9 +51,10 @@
     <Compile Include="ELocPro.cs" />
     <Compile Include="ELocReg.cs" />
     <Compile Include="ELogin.cs" />
+    <Compile Include="EPermisos.cs" />
     <Compile Include="EProd.cs" />
     <Compile Include="EProv.cs" />
-    <Compile Include="EUsua.cs" />
+    <Compile Include="EUsuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Respuesta.cs" />
   </ItemGroup>

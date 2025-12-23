@@ -39,7 +39,7 @@
             this.ButLim = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label3
+            // Label3.
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(38, 89);
@@ -49,7 +49,7 @@
             this.label3.TabIndex = 27;
             this.label3.Text = "Nombre";
             // 
-            // button2
+            // Button2.
             // 
             this.button2.Location = new System.Drawing.Point(274, 223);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
@@ -60,7 +60,7 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // textBox2
+            // TextBox2.
             // 
             this.textBox2.Location = new System.Drawing.Point(216, 138);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
@@ -71,7 +71,7 @@
             this.textBox2.TabStop = false;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // textBox1
+            // TextBox1.
             // 
             this.textBox1.Location = new System.Drawing.Point(216, 89);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
@@ -80,7 +80,7 @@
             this.textBox1.TabIndex = 24;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // label2
+            // Label2.
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(46, 138);
@@ -90,7 +90,7 @@
             this.label2.TabIndex = 23;
             this.label2.Text = "Clave";
             // 
-            // label1
+            // Label1.
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(125, 28);
@@ -100,7 +100,7 @@
             this.label1.TabIndex = 22;
             this.label1.Text = "Ingreso al Sistema";
             // 
-            // button1
+            // Button1.
             // 
             this.button1.Enabled = false;
             this.button1.Location = new System.Drawing.Point(13, 223);
@@ -113,7 +113,7 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // CHBVPass
+            // CHBVPass.
             // 
             this.CHBVPass.AutoSize = true;
             this.CHBVPass.Location = new System.Drawing.Point(224, 167);
@@ -124,7 +124,7 @@
             this.CHBVPass.UseVisualStyleBackColor = true;
             this.CHBVPass.CheckedChanged += new System.EventHandler(this.CHBVPass_CheckedChanged);
             // 
-            // ButLim
+            // ButLim.
             // 
             this.ButLim.Enabled = false;
             this.ButLim.Location = new System.Drawing.Point(142, 223);
@@ -137,7 +137,7 @@
             this.ButLim.UseVisualStyleBackColor = true;
             this.ButLim.Click += new System.EventHandler(this.ButLim_Click);
             // 
-            // Login
+            // Login.
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

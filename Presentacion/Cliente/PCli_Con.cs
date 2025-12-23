@@ -1,24 +1,26 @@
-﻿// Accede a códigos de otra librería
+﻿// Importa dependencias.
 using Entidad;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Negocio;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Presentacion.AAClases;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Presentacion.ArriFinal;
-// Accede a códigos de otra librería
+using Presentacion.Usuarios;
+
+// Importa dependencias.
 using System;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Collections.Generic;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Linq;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Runtime.ConstrainedExecution;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Windows.Forms;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using static System.Net.Mime.MediaTypeNames;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Application = System.Windows.Forms.Application;
 
 
@@ -59,24 +61,43 @@ namespace Presentacion.Cliente
             ComboBus.ValueMember = "Valor";     // Define la propiedad de valor.
             ComboBus.SelectedIndex = 0;         // Selecciona el primer elemento.
             CarDat();       // Carga los datos iniciales.
+            ConfigurarPermisosClientes();
         }
+        private void ConfigurarPermisosClientes()
+        {
+            var permisos = Sesion.Permisos;
 
+            if (permisos != null)
+            {
+                // Controla visibilidad de botones según permisos.
+                ButMod.Visible = (permisos.ACliente == "SI");
+                ButEli.Visible = (permisos.ECliente == "SI");
+
+                // ButClien no lo controlamos porque ya lo maneja FormularioPadre.
+            }
+            else
+            {
+                // Si no hay permisos cargados, ocultar botones.
+                ButMod.Visible = false;
+                ButEli.Visible = false;
+            }
+        }
         public void CarDat()
-        // Carga los datos en la grilla
+        // Carga los datos en la grilla.
         {
             try // Intenta cargar los datos
             {
                 Grilla.Rows.Clear(); // Limpia las filas existentes
                 List<ECliente> Listar = new NCliente().Listar(); // Obtiene la lista de clientes
                 foreach (ECliente item in Listar)
-                // Recorre cada cliente de la lista
+                // Recorre cada cliente de la lista.
                 {
                     Grilla.Rows.Add(new object[] { "", item.IdP_Cli, item.Nombre, item.Rut, item.IdCom, item.Com.Nombre, item.Direccion, item.Tel, item.Email, item.Giro });
-                    // Agrega una fila con datos
+                    // Agrega una fila con datos.
                 }
             }
             catch (Exception ex)
-            // Si ocurre un error
+            // Si ocurre un error.
             {
                 MessageBox.Show(ex.Message); // Muestra el mensaje de error
             }
@@ -127,7 +148,7 @@ namespace Presentacion.Cliente
         }
 
         private void Grilla_DoubleClick(object sender, EventArgs e)
-        // Al hacer doble clic en la tabla
+        // Al hacer doble clic en la tabla.
         {
             ButMod.Enabled = true; // Activa el botón de modificar
             ButEli.Enabled = true; // Activa el botón de eliminar
@@ -136,7 +157,7 @@ namespace Presentacion.Cliente
         }
 
         private void ButMod_Click(object sender, EventArgs e)
-        // Al pulsar el botón Modificar
+        // Al pulsar el botón Modificar.
         {
             PCli_Act pasar = new PCli_Act(); // Crea la ventana de actualizar
             pasar.TextIdCli.Text = this.Grilla.CurrentRow.Cells[1].Value.ToString(); // Pasa el ID del cliente
@@ -168,7 +189,7 @@ namespace Presentacion.Cliente
             ButMod.Enabled = false; // Desactiva el botón 
             ButEli.Enabled = false; // Desactiva el botón 
             ButClien.Enabled = false; // Desactiva el botón 
-                                      //this.Close();
+                                      // This.Close();
         }
         private void ButEli_Click(object sender, EventArgs e) // Evento clic en botón eliminar.
         {
@@ -264,3 +285,4 @@ namespace Presentacion.Cliente
         }
     }
 }
+

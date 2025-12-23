@@ -1,10 +1,10 @@
 ﻿using Entidad;
-// Accede a códigos de otra librería
+// Importa dependencias.
 
 namespace Presentacion
 {
     public class Configuracion
     {
-        public static EUsua Ent { get; set; } // Propiedad estática para EUsua
+        public static EUsuarios Ent { get; set; } // Propiedad estática para EUsua
     }
 }

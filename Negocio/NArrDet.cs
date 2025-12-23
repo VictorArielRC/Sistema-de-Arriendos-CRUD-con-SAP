@@ -1,8 +1,8 @@
-﻿// Accede a códigos de otra librería
+﻿// Importa dependencias.
 using Datos;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Entidad;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Collections.Generic;
 
 
@@ -35,8 +35,9 @@ namespace Negocio
         }
         public int ObtenerUltimoId()
         {
-            // Delegar la llamada al método correspondiente en la capa de datos
+            // Delegar la llamada al método correspondiente en la capa de datos.
             return DArrDet.Instancia.ObtenerUltimoId();
         }
     }
 }
+

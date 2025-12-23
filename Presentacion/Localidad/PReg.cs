@@ -1,16 +1,18 @@
-﻿// Accede a códigos de otra librería
+﻿// Importa dependencias.
 using Entidad;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Negocio;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Presentacion.AAClases;
-// Accede a códigos de otra librería
+using Presentacion.Usuarios;
+
+// Importa dependencias.
 using System;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Collections.Generic;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Windows.Forms;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 
@@ -48,8 +50,25 @@ namespace Presentacion.Localidad
             // Llama al método para cargar los datos en la grilla.
             CarDat();
             ThemeManager.ApplyExecutiveTheme(this); // Aplica tema ejecutivo.
+            ConfigurarPermisosRegion(); // Configura permisos de usuario.
         }
+        private void ConfigurarPermisosRegion()
+        {
+            var permisos = Sesion.Permisos;
 
+            if (permisos != null)
+            {
+                CheckIng.Visible = (permisos.ILReg == "SI");
+                CheckMod.Visible = (permisos.ALReg == "SI");
+                CheckEli.Visible = (permisos.ELReg == "SI");
+            }
+            else
+            {
+                CheckIng.Visible = false;
+                CheckMod.Visible = false;
+                CheckEli.Visible = false;
+            }
+        }
         // Método para cargar los datos de regiones en la `Grilla`.
         public void CarDat()
         {
@@ -493,3 +512,4 @@ namespace Presentacion.Localidad
         }
     }
 }
+

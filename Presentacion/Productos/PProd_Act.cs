@@ -1,22 +1,22 @@
-﻿// Accede a códigos de otra librería
+﻿// Importa dependencias.
 using Entidad;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Negocio;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Collections.Generic;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.ComponentModel;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Data;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Drawing;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Linq;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Text;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Windows.Forms;
 
 
@@ -258,3 +258,4 @@ namespace Presentacion.Productos
         }
     }
 }
+

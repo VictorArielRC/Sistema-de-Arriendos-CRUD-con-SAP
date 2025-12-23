@@ -1,22 +1,22 @@
-﻿// Accede a códigos de otra librería
+﻿// Importa dependencias.
 using Entidad;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Collections.Generic;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Data;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Data.SqlClient;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Linq;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Text;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Threading.Tasks;
 
 
-// Gestión datos
+// Gestión datos.
 namespace Datos
 {
     public class DArrVUn
@@ -46,7 +46,7 @@ namespace Datos
                 cmd.CommandType = CommandType.StoredProcedure; // Tipo comando SP
 
                 try
-                    //abre bloque de codigo try
+                    // Abre bloque de codigo try.
                 {
                     oConexion.Open(); // Abre conexión
                     SqlDataReader dr = cmd.ExecuteReader(); // Ejecuta y lee datos
@@ -121,7 +121,7 @@ namespace Datos
 
             {
                 try
-                    //abre bloque de codigo try
+                    // Abre bloque de codigo try.
                 {
                     SqlCommand cmd = new SqlCommand("Act_Arr_VUn", Con); // Llama SP de actualización
 

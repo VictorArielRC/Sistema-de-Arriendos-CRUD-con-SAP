@@ -1,8 +1,8 @@
-﻿// Accede a códigos de otra librería
+﻿// Importa dependencias.
 using Datos;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Entidad;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Collections.Generic;
 
 
@@ -38,3 +38,4 @@ namespace Negocio
         }
     }
 }
+

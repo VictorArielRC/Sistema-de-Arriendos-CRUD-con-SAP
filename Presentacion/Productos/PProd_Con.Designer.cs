@@ -65,7 +65,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Grilla)).BeginInit();
             this.SuspendLayout();
             // 
-            // TextBox2
+            // TextBox2.
             // 
             this.TextBox2.Enabled = false;
             this.TextBox2.Location = new System.Drawing.Point(153, 421);
@@ -77,7 +77,7 @@
             this.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.TextBox2.Visible = false;
             // 
-            // TextI10
+            // TextI10.
             // 
             this.TextI10.Enabled = false;
             this.TextI10.Location = new System.Drawing.Point(525, 469);
@@ -86,7 +86,7 @@
             this.TextI10.TabIndex = 227;
             this.TextI10.Visible = false;
             // 
-            // TextI9
+            // TextI9.
             // 
             this.TextI9.Enabled = false;
             this.TextI9.Location = new System.Drawing.Point(496, 469);
@@ -95,7 +95,7 @@
             this.TextI9.TabIndex = 226;
             this.TextI9.Visible = false;
             // 
-            // TextI8
+            // TextI8.
             // 
             this.TextI8.Enabled = false;
             this.TextI8.Location = new System.Drawing.Point(467, 469);
@@ -104,7 +104,7 @@
             this.TextI8.TabIndex = 225;
             this.TextI8.Visible = false;
             // 
-            // TextI7
+            // TextI7.
             // 
             this.TextI7.Enabled = false;
             this.TextI7.Location = new System.Drawing.Point(438, 469);
@@ -113,7 +113,7 @@
             this.TextI7.TabIndex = 224;
             this.TextI7.Visible = false;
             // 
-            // TextI6
+            // TextI6.
             // 
             this.TextI6.Enabled = false;
             this.TextI6.Location = new System.Drawing.Point(409, 469);
@@ -122,7 +122,7 @@
             this.TextI6.TabIndex = 223;
             this.TextI6.Visible = false;
             // 
-            // TextI5
+            // TextI5.
             // 
             this.TextI5.Enabled = false;
             this.TextI5.Location = new System.Drawing.Point(380, 469);
@@ -131,7 +131,7 @@
             this.TextI5.TabIndex = 222;
             this.TextI5.Visible = false;
             // 
-            // TextI4
+            // TextI4.
             // 
             this.TextI4.Enabled = false;
             this.TextI4.Location = new System.Drawing.Point(351, 469);
@@ -140,7 +140,7 @@
             this.TextI4.TabIndex = 221;
             this.TextI4.Visible = false;
             // 
-            // TextI3
+            // TextI3.
             // 
             this.TextI3.Enabled = false;
             this.TextI3.Location = new System.Drawing.Point(322, 469);
@@ -149,7 +149,7 @@
             this.TextI3.TabIndex = 220;
             this.TextI3.Visible = false;
             // 
-            // TextI2
+            // TextI2.
             // 
             this.TextI2.Enabled = false;
             this.TextI2.Location = new System.Drawing.Point(293, 469);
@@ -158,7 +158,7 @@
             this.TextI2.TabIndex = 219;
             this.TextI2.Visible = false;
             // 
-            // TextI1
+            // TextI1.
             // 
             this.TextI1.Enabled = false;
             this.TextI1.Location = new System.Drawing.Point(264, 469);
@@ -167,7 +167,7 @@
             this.TextI1.TabIndex = 218;
             this.TextI1.Visible = false;
             // 
-            // ButCarProd
+            // ButCarProd.
             // 
             this.ButCarProd.Enabled = false;
             this.ButCarProd.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -183,7 +183,7 @@
             this.ButCarProd.Visible = false;
             this.ButCarProd.Click += new System.EventHandler(this.ButCarProd_Click);
             // 
-            // TextBox1
+            // TextBox1.
             // 
             this.TextBox1.Enabled = false;
             this.TextBox1.Location = new System.Drawing.Point(153, 447);
@@ -195,7 +195,7 @@
             this.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.TextBox1.Visible = false;
             // 
-            // ButEli
+            // ButEli.
             // 
             this.ButEli.Enabled = false;
             this.ButEli.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -211,7 +211,7 @@
             this.ButEli.Visible = false;
             this.ButEli.Click += new System.EventHandler(this.ButEli_Click);
             // 
-            // ButMod
+            // ButMod.
             // 
             this.ButMod.Enabled = false;
             this.ButMod.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -227,7 +227,7 @@
             this.ButMod.Visible = false;
             this.ButMod.Click += new System.EventHandler(this.ButMod_Click);
             // 
-            // ButSal
+            // ButSal.
             // 
             this.ButSal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButSal.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -241,7 +241,7 @@
             this.ButSal.UseVisualStyleBackColor = true;
             this.ButSal.Click += new System.EventHandler(this.ButSal_Click);
             // 
-            // ButVol
+            // ButVol.
             // 
             this.ButVol.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButVol.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -255,7 +255,7 @@
             this.ButVol.UseVisualStyleBackColor = true;
             this.ButVol.Click += new System.EventHandler(this.ButVol_Click);
             // 
-            // Label1
+            // Label1.
             // 
             this.Label1.AutoSize = true;
             this.Label1.Location = new System.Drawing.Point(303, 20);
@@ -264,7 +264,7 @@
             this.Label1.TabIndex = 208;
             this.Label1.Text = "Información sobre Producto Nuevo";
             // 
-            // Grilla
+            // Grilla.
             // 
             this.Grilla.AllowUserToAddRows = false;
             this.Grilla.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -291,7 +291,7 @@
             this.Grilla.TabIndex = 234;
             this.Grilla.DoubleClick += new System.EventHandler(this.Grilla_DoubleClick);
             // 
-            // Selec
+            // Selec.
             // 
             this.Selec.HeaderText = "Column1";
             this.Selec.MinimumWidth = 6;
@@ -300,7 +300,7 @@
             this.Selec.Visible = false;
             this.Selec.Width = 125;
             // 
-            // IdProd
+            // IdProd.
             // 
             this.IdProd.HeaderText = "IdProd";
             this.IdProd.MinimumWidth = 6;
@@ -309,7 +309,7 @@
             this.IdProd.Visible = false;
             this.IdProd.Width = 125;
             // 
-            // Nombre
+            // Nombre.
             // 
             this.Nombre.HeaderText = "Nombre";
             this.Nombre.MinimumWidth = 6;
@@ -317,7 +317,7 @@
             this.Nombre.ReadOnly = true;
             this.Nombre.Width = 300;
             // 
-            // FInc
+            // FInc.
             // 
             this.FInc.HeaderText = "Fech. Incor.";
             this.FInc.MinimumWidth = 6;
@@ -326,7 +326,7 @@
             this.FInc.Visible = false;
             this.FInc.Width = 125;
             // 
-            // CInc
+            // CInc.
             // 
             this.CInc.HeaderText = "Inicial";
             this.CInc.MinimumWidth = 6;
@@ -334,7 +334,7 @@
             this.CInc.ReadOnly = true;
             this.CInc.Width = 65;
             // 
-            // CAct
+            // CAct.
             // 
             this.CAct.HeaderText = "Actual";
             this.CAct.MinimumWidth = 6;
@@ -342,7 +342,7 @@
             this.CAct.ReadOnly = true;
             this.CAct.Width = 65;
             // 
-            // CArr
+            // CArr.
             // 
             this.CArr.HeaderText = "Arrendado";
             this.CArr.MinimumWidth = 6;
@@ -350,7 +350,7 @@
             this.CArr.ReadOnly = true;
             this.CArr.Width = 90;
             // 
-            // TAct
+            // TAct.
             // 
             this.TAct.HeaderText = "Total";
             this.TAct.MinimumWidth = 6;
@@ -358,7 +358,7 @@
             this.TAct.ReadOnly = true;
             this.TAct.Width = 65;
             // 
-            // VArr
+            // VArr.
             // 
             this.VArr.HeaderText = "Valor";
             this.VArr.MinimumWidth = 6;
@@ -366,7 +366,7 @@
             this.VArr.ReadOnly = true;
             this.VArr.Width = 65;
             // 
-            // ButLimBus
+            // ButLimBus.
             // 
             this.ButLimBus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButLimBus.Location = new System.Drawing.Point(561, 62);
@@ -379,7 +379,7 @@
             this.ButLimBus.UseVisualStyleBackColor = true;
             this.ButLimBus.Click += new System.EventHandler(this.ButLimBus_Click);
             // 
-            // ButBus
+            // ButBus.
             // 
             this.ButBus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButBus.Location = new System.Drawing.Point(452, 62);
@@ -392,7 +392,7 @@
             this.ButBus.UseVisualStyleBackColor = true;
             this.ButBus.Click += new System.EventHandler(this.ButBus_Click);
             // 
-            // TextBus
+            // TextBus.
             // 
             this.TextBus.Location = new System.Drawing.Point(123, 76);
             this.TextBus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -402,7 +402,7 @@
             this.TextBus.TabStop = false;
             this.TextBus.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // ComboBusReg
+            // ComboBusReg.
             // 
             this.ComboBusReg.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComboBusReg.FormattingEnabled = true;
@@ -413,7 +413,7 @@
             this.ComboBusReg.TabIndex = 236;
             this.ComboBusReg.Visible = false;
             // 
-            // label2
+            // Label2.
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(123, 48);
@@ -422,7 +422,7 @@
             this.label2.TabIndex = 235;
             this.label2.Text = "Buscar:";
             // 
-            // textBox3
+            // TextBox3.
             // 
             this.textBox3.Enabled = false;
             this.textBox3.Location = new System.Drawing.Point(153, 473);
@@ -434,7 +434,7 @@
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox3.Visible = false;
             // 
-            // PProd_Con
+            // PProd_Con.
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

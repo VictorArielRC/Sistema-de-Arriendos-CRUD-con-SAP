@@ -1,14 +1,15 @@
-﻿// Accede a códigos de otra librería
+﻿// Importa dependencias.
 using Entidad;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Negocio;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using Presentacion.AAClases;
-// Accede a códigos de otra librería
+using Presentacion.Usuarios;
+// Importa dependencias.
 using System;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Collections.Generic;
-// Accede a códigos de otra librería
+// Importa dependencias.
 using System.Windows.Forms;
 
 
@@ -51,8 +52,25 @@ namespace Presentacion.Localidad
             // Llena el ComboBox de regiones.
             LleComReg();
             ThemeManager.ApplyExecutiveTheme(this); // Aplica tema ejecutivo.
+            ConfigurarPermisosProvinicia(); // Configura permisos de provincia.
         }
+        private void ConfigurarPermisosProvinicia()
+        {
+            var permisos = Sesion.Permisos;
 
+            if (permisos != null)
+            {
+                CheckIng.Visible = (permisos.ILPro == "SI");
+                CheckMod.Visible = (permisos.ALPro == "SI");
+                CheckEli.Visible = (permisos.ELPro == "SI");
+            }
+            else
+            {
+                CheckIng.Visible = false;
+                CheckMod.Visible = false;
+                CheckEli.Visible = false;
+            }
+        }
         // Método para cargar datos en el control `Grilla` (probablemente un DataGridView).
         public void CarDat()
         {
@@ -509,7 +527,7 @@ namespace Presentacion.Localidad
                     }
                 }
                 else
-                // si no se puede convertir el texto a entero
+                // Si no se puede convertir el texto a entero.
                 {
                     MessageBox.Show("Seleccione un registro válido", "Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information); // si no se selecciona un registro válido
                 }
@@ -551,3 +569,4 @@ namespace Presentacion.Localidad
         }
     }
 }
+

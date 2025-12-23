@@ -83,7 +83,7 @@
             this.MenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // MenuStrip1
+            // MenuStrip1.
             // 
             this.MenuStrip1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.MenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -104,11 +104,11 @@
             this.MenuStrip1.Location = new System.Drawing.Point(0, 0);
             this.MenuStrip1.Name = "MenuStrip1";
             this.MenuStrip1.Padding = new System.Windows.Forms.Padding(9, 2, 0, 2);
-            this.MenuStrip1.Size = new System.Drawing.Size(1112, 28);
+            this.MenuStrip1.Size = new System.Drawing.Size(1112, 24);
             this.MenuStrip1.TabIndex = 6;
             this.MenuStrip1.Text = "MenuStrip1";
             // 
-            // Usuarios
+            // Usuarios.
             // 
             this.Usuarios.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripSeparator16,
@@ -119,58 +119,58 @@
             this.Eliminar_Usu,
             this.toolStripSeparator19});
             this.Usuarios.Name = "Usuarios";
-            this.Usuarios.Size = new System.Drawing.Size(98, 24);
+            this.Usuarios.Size = new System.Drawing.Size(81, 20);
             this.Usuarios.Text = "Usuarios";
             // 
-            // toolStripSeparator16
+            // ToolStripSeparator16.
             // 
             this.toolStripSeparator16.Name = "toolStripSeparator16";
-            this.toolStripSeparator16.Size = new System.Drawing.Size(174, 6);
+            this.toolStripSeparator16.Size = new System.Drawing.Size(139, 6);
             // 
-            // Ingresar_Usu
+            // Ingresar_Usu.
             // 
             this.Ingresar_Usu.Name = "Ingresar_Usu";
-            this.Ingresar_Usu.Size = new System.Drawing.Size(177, 26);
+            this.Ingresar_Usu.Size = new System.Drawing.Size(142, 22);
             this.Ingresar_Usu.Text = "Ingresar";
             this.Ingresar_Usu.Click += new System.EventHandler(this.Ingresar_Usu_Click);
             // 
-            // toolStripSeparator17
+            // ToolStripSeparator17.
             // 
             this.toolStripSeparator17.Name = "toolStripSeparator17";
-            this.toolStripSeparator17.Size = new System.Drawing.Size(174, 6);
+            this.toolStripSeparator17.Size = new System.Drawing.Size(139, 6);
             // 
-            // Actualizar_Usu
+            // Actualizar_Usu.
             // 
             this.Actualizar_Usu.Name = "Actualizar_Usu";
-            this.Actualizar_Usu.Size = new System.Drawing.Size(177, 26);
+            this.Actualizar_Usu.Size = new System.Drawing.Size(142, 22);
             this.Actualizar_Usu.Text = "Actualizar";
             this.Actualizar_Usu.Click += new System.EventHandler(this.Actualizar_Usu_Click);
             // 
-            // toolStripSeparator18
+            // ToolStripSeparator18.
             // 
             this.toolStripSeparator18.Name = "toolStripSeparator18";
-            this.toolStripSeparator18.Size = new System.Drawing.Size(174, 6);
+            this.toolStripSeparator18.Size = new System.Drawing.Size(139, 6);
             // 
-            // Eliminar_Usu
+            // Eliminar_Usu.
             // 
             this.Eliminar_Usu.Name = "Eliminar_Usu";
-            this.Eliminar_Usu.Size = new System.Drawing.Size(177, 26);
+            this.Eliminar_Usu.Size = new System.Drawing.Size(142, 22);
             this.Eliminar_Usu.Text = "Eliminar";
             this.Eliminar_Usu.Click += new System.EventHandler(this.Eliminar_Usu_Click);
             // 
-            // toolStripSeparator19
+            // ToolStripSeparator19.
             // 
             this.toolStripSeparator19.Name = "toolStripSeparator19";
-            this.toolStripSeparator19.Size = new System.Drawing.Size(174, 6);
+            this.toolStripSeparator19.Size = new System.Drawing.Size(139, 6);
             // 
-            // Bar1
+            // Bar1.
             // 
             this.Bar1.Enabled = false;
             this.Bar1.Name = "Bar1";
-            this.Bar1.Size = new System.Drawing.Size(29, 24);
+            this.Bar1.Size = new System.Drawing.Size(24, 20);
             this.Bar1.Text = "/";
             // 
-            // Localidad
+            // Localidad.
             // 
             this.Localidad.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ToolStripSeparator1,
@@ -181,58 +181,58 @@
             this.Comuna,
             this.ToolStripSeparator4});
             this.Localidad.Name = "Localidad";
-            this.Localidad.Size = new System.Drawing.Size(104, 24);
+            this.Localidad.Size = new System.Drawing.Size(88, 20);
             this.Localidad.Text = "Localidad";
             // 
-            // ToolStripSeparator1
+            // ToolStripSeparator1.
             // 
             this.ToolStripSeparator1.Name = "ToolStripSeparator1";
-            this.ToolStripSeparator1.Size = new System.Drawing.Size(167, 6);
+            this.ToolStripSeparator1.Size = new System.Drawing.Size(136, 6);
             // 
-            // Región
+            // Región.
             // 
             this.Región.Name = "Región";
-            this.Región.Size = new System.Drawing.Size(170, 26);
+            this.Región.Size = new System.Drawing.Size(139, 22);
             this.Región.Text = "Región";
             this.Región.Click += new System.EventHandler(this.Región_Click);
             // 
-            // ToolStripSeparator2
+            // ToolStripSeparator2.
             // 
             this.ToolStripSeparator2.Name = "ToolStripSeparator2";
-            this.ToolStripSeparator2.Size = new System.Drawing.Size(167, 6);
+            this.ToolStripSeparator2.Size = new System.Drawing.Size(136, 6);
             // 
-            // Provincia
+            // Provincia.
             // 
             this.Provincia.Name = "Provincia";
-            this.Provincia.Size = new System.Drawing.Size(170, 26);
+            this.Provincia.Size = new System.Drawing.Size(139, 22);
             this.Provincia.Text = "Provincia";
             this.Provincia.Click += new System.EventHandler(this.Provincia_Click);
             // 
-            // ToolStripSeparator3
+            // ToolStripSeparator3.
             // 
             this.ToolStripSeparator3.Name = "ToolStripSeparator3";
-            this.ToolStripSeparator3.Size = new System.Drawing.Size(167, 6);
+            this.ToolStripSeparator3.Size = new System.Drawing.Size(136, 6);
             // 
-            // Comuna
+            // Comuna.
             // 
             this.Comuna.Name = "Comuna";
-            this.Comuna.Size = new System.Drawing.Size(170, 26);
+            this.Comuna.Size = new System.Drawing.Size(139, 22);
             this.Comuna.Text = "Comuna";
             this.Comuna.Click += new System.EventHandler(this.Comuna_Click);
             // 
-            // ToolStripSeparator4
+            // ToolStripSeparator4.
             // 
             this.ToolStripSeparator4.Name = "ToolStripSeparator4";
-            this.ToolStripSeparator4.Size = new System.Drawing.Size(167, 6);
+            this.ToolStripSeparator4.Size = new System.Drawing.Size(136, 6);
             // 
-            // Bar2
+            // Bar2.
             // 
             this.Bar2.Enabled = false;
             this.Bar2.Name = "Bar2";
-            this.Bar2.Size = new System.Drawing.Size(29, 24);
+            this.Bar2.Size = new System.Drawing.Size(24, 20);
             this.Bar2.Text = "/";
             // 
-            // Cliente
+            // Cliente.
             // 
             this.Cliente.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ToolStripSeparator5,
@@ -243,58 +243,58 @@
             this.EliminarCli,
             this.ToolStripSeparator8});
             this.Cliente.Name = "Cliente";
-            this.Cliente.Size = new System.Drawing.Size(82, 24);
+            this.Cliente.Size = new System.Drawing.Size(67, 20);
             this.Cliente.Text = "Cliente";
             // 
-            // ToolStripSeparator5
+            // ToolStripSeparator5.
             // 
             this.ToolStripSeparator5.Name = "ToolStripSeparator5";
-            this.ToolStripSeparator5.Size = new System.Drawing.Size(174, 6);
+            this.ToolStripSeparator5.Size = new System.Drawing.Size(177, 6);
             // 
-            // IngresarCli
+            // IngresarCli.
             // 
             this.IngresarCli.Name = "IngresarCli";
-            this.IngresarCli.Size = new System.Drawing.Size(177, 26);
+            this.IngresarCli.Size = new System.Drawing.Size(180, 22);
             this.IngresarCli.Text = "Ingresar";
             this.IngresarCli.Click += new System.EventHandler(this.IngresarCli_Click);
             // 
-            // ToolStripSeparator6
+            // ToolStripSeparator6.
             // 
             this.ToolStripSeparator6.Name = "ToolStripSeparator6";
-            this.ToolStripSeparator6.Size = new System.Drawing.Size(174, 6);
+            this.ToolStripSeparator6.Size = new System.Drawing.Size(177, 6);
             // 
-            // ActualizarCli
+            // ActualizarCli.
             // 
             this.ActualizarCli.Name = "ActualizarCli";
-            this.ActualizarCli.Size = new System.Drawing.Size(177, 26);
+            this.ActualizarCli.Size = new System.Drawing.Size(180, 22);
             this.ActualizarCli.Text = "Actualizar";
             this.ActualizarCli.Click += new System.EventHandler(this.ActualizarCli_Click);
             // 
-            // ToolStripSeparator7
+            // ToolStripSeparator7.
             // 
             this.ToolStripSeparator7.Name = "ToolStripSeparator7";
-            this.ToolStripSeparator7.Size = new System.Drawing.Size(174, 6);
+            this.ToolStripSeparator7.Size = new System.Drawing.Size(177, 6);
             // 
-            // EliminarCli
+            // EliminarCli.
             // 
             this.EliminarCli.Name = "EliminarCli";
-            this.EliminarCli.Size = new System.Drawing.Size(177, 26);
+            this.EliminarCli.Size = new System.Drawing.Size(180, 22);
             this.EliminarCli.Text = "Eliminar";
             this.EliminarCli.Click += new System.EventHandler(this.EliminarCli_Click);
             // 
-            // ToolStripSeparator8
+            // ToolStripSeparator8.
             // 
             this.ToolStripSeparator8.Name = "ToolStripSeparator8";
-            this.ToolStripSeparator8.Size = new System.Drawing.Size(174, 6);
+            this.ToolStripSeparator8.Size = new System.Drawing.Size(177, 6);
             // 
-            // Bar3
+            // Bar3.
             // 
             this.Bar3.Enabled = false;
             this.Bar3.Name = "Bar3";
-            this.Bar3.Size = new System.Drawing.Size(29, 24);
+            this.Bar3.Size = new System.Drawing.Size(24, 20);
             this.Bar3.Text = "/";
             // 
-            // Proveedor
+            // Proveedor.
             // 
             this.Proveedor.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ToolStripSeparator9,
@@ -305,58 +305,58 @@
             this.EliminarProv,
             this.ToolStripSeparator12});
             this.Proveedor.Name = "Proveedor";
-            this.Proveedor.Size = new System.Drawing.Size(108, 24);
+            this.Proveedor.Size = new System.Drawing.Size(92, 20);
             this.Proveedor.Text = "Proveedor";
             // 
-            // ToolStripSeparator9
+            // ToolStripSeparator9.
             // 
             this.ToolStripSeparator9.Name = "ToolStripSeparator9";
-            this.ToolStripSeparator9.Size = new System.Drawing.Size(174, 6);
+            this.ToolStripSeparator9.Size = new System.Drawing.Size(139, 6);
             // 
-            // IngresarProv
+            // IngresarProv.
             // 
             this.IngresarProv.Name = "IngresarProv";
-            this.IngresarProv.Size = new System.Drawing.Size(177, 26);
+            this.IngresarProv.Size = new System.Drawing.Size(142, 22);
             this.IngresarProv.Text = "Ingresar";
             this.IngresarProv.Click += new System.EventHandler(this.IngresarProv_Click);
             // 
-            // ToolStripSeparator10
+            // ToolStripSeparator10.
             // 
             this.ToolStripSeparator10.Name = "ToolStripSeparator10";
-            this.ToolStripSeparator10.Size = new System.Drawing.Size(174, 6);
+            this.ToolStripSeparator10.Size = new System.Drawing.Size(139, 6);
             // 
-            // ActualizarProv
+            // ActualizarProv.
             // 
             this.ActualizarProv.Name = "ActualizarProv";
-            this.ActualizarProv.Size = new System.Drawing.Size(177, 26);
+            this.ActualizarProv.Size = new System.Drawing.Size(142, 22);
             this.ActualizarProv.Text = "Actualizar";
             this.ActualizarProv.Click += new System.EventHandler(this.ActualizarProv_Click);
             // 
-            // ToolStripSeparator11
+            // ToolStripSeparator11.
             // 
             this.ToolStripSeparator11.Name = "ToolStripSeparator11";
-            this.ToolStripSeparator11.Size = new System.Drawing.Size(174, 6);
+            this.ToolStripSeparator11.Size = new System.Drawing.Size(139, 6);
             // 
-            // EliminarProv
+            // EliminarProv.
             // 
             this.EliminarProv.Name = "EliminarProv";
-            this.EliminarProv.Size = new System.Drawing.Size(177, 26);
+            this.EliminarProv.Size = new System.Drawing.Size(142, 22);
             this.EliminarProv.Text = "Eliminar";
             this.EliminarProv.Click += new System.EventHandler(this.EliminarProv_Click);
             // 
-            // ToolStripSeparator12
+            // ToolStripSeparator12.
             // 
             this.ToolStripSeparator12.Name = "ToolStripSeparator12";
-            this.ToolStripSeparator12.Size = new System.Drawing.Size(174, 6);
+            this.ToolStripSeparator12.Size = new System.Drawing.Size(139, 6);
             // 
-            // Bar4
+            // Bar4.
             // 
             this.Bar4.Enabled = false;
             this.Bar4.Name = "Bar4";
-            this.Bar4.Size = new System.Drawing.Size(29, 24);
+            this.Bar4.Size = new System.Drawing.Size(24, 20);
             this.Bar4.Text = "/";
             // 
-            // Productos
+            // Productos.
             // 
             this.Productos.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ToolStripSeparator13,
@@ -366,83 +366,83 @@
             this.ToolStripSeparator15,
             this.EliminarProd});
             this.Productos.Name = "Productos";
-            this.Productos.Size = new System.Drawing.Size(108, 24);
+            this.Productos.Size = new System.Drawing.Size(89, 20);
             this.Productos.Text = "Productos";
             // 
-            // ToolStripSeparator13
+            // ToolStripSeparator13.
             // 
             this.ToolStripSeparator13.Name = "ToolStripSeparator13";
-            this.ToolStripSeparator13.Size = new System.Drawing.Size(174, 6);
+            this.ToolStripSeparator13.Size = new System.Drawing.Size(139, 6);
             // 
-            // InsertarProd
+            // InsertarProd.
             // 
             this.InsertarProd.Name = "InsertarProd";
-            this.InsertarProd.Size = new System.Drawing.Size(177, 26);
+            this.InsertarProd.Size = new System.Drawing.Size(142, 22);
             this.InsertarProd.Text = "Insertar";
             this.InsertarProd.Click += new System.EventHandler(this.InsertarProd_Click);
             // 
-            // ToolStripSeparator14
+            // ToolStripSeparator14.
             // 
             this.ToolStripSeparator14.Name = "ToolStripSeparator14";
-            this.ToolStripSeparator14.Size = new System.Drawing.Size(174, 6);
+            this.ToolStripSeparator14.Size = new System.Drawing.Size(139, 6);
             // 
-            // ActualizarProd
+            // ActualizarProd.
             // 
             this.ActualizarProd.Name = "ActualizarProd";
-            this.ActualizarProd.Size = new System.Drawing.Size(177, 26);
+            this.ActualizarProd.Size = new System.Drawing.Size(142, 22);
             this.ActualizarProd.Text = "Actualizar";
             this.ActualizarProd.Click += new System.EventHandler(this.ActualizarProd_Click);
             // 
-            // ToolStripSeparator15
+            // ToolStripSeparator15.
             // 
             this.ToolStripSeparator15.Name = "ToolStripSeparator15";
-            this.ToolStripSeparator15.Size = new System.Drawing.Size(174, 6);
+            this.ToolStripSeparator15.Size = new System.Drawing.Size(139, 6);
             // 
-            // EliminarProd
+            // EliminarProd.
             // 
             this.EliminarProd.Name = "EliminarProd";
-            this.EliminarProd.Size = new System.Drawing.Size(177, 26);
+            this.EliminarProd.Size = new System.Drawing.Size(142, 22);
             this.EliminarProd.Text = "Eliminar";
             this.EliminarProd.Click += new System.EventHandler(this.EliminarProd_Click);
             // 
-            // Bar5
+            // Bar5.
             // 
             this.Bar5.Enabled = false;
             this.Bar5.Name = "Bar5";
-            this.Bar5.Size = new System.Drawing.Size(29, 24);
+            this.Bar5.Size = new System.Drawing.Size(24, 20);
             this.Bar5.Text = "/";
             // 
-            // Arriendos
+            // Arriendos.
             // 
             this.Arriendos.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.GenerarArr});
             this.Arriendos.Name = "Arriendos";
-            this.Arriendos.Size = new System.Drawing.Size(104, 24);
+            this.Arriendos.Size = new System.Drawing.Size(86, 20);
             this.Arriendos.Text = "Arriendos";
             // 
-            // GenerarArr
+            // GenerarArr.
             // 
             this.GenerarArr.Name = "GenerarArr";
-            this.GenerarArr.Size = new System.Drawing.Size(237, 26);
+            this.GenerarArr.Size = new System.Drawing.Size(193, 22);
             this.GenerarArr.Text = "Generar Arriendo";
             this.GenerarArr.Click += new System.EventHandler(this.GenerarArr_Click);
             // 
-            // Bar6
+            // Bar6.
             // 
             this.Bar6.Enabled = false;
             this.Bar6.Name = "Bar6";
-            this.Bar6.Size = new System.Drawing.Size(29, 24);
+            this.Bar6.Size = new System.Drawing.Size(24, 20);
             this.Bar6.Text = "/";
             // 
-            // Exit
+            // Exit.
             // 
             this.Exit.BackColor = System.Drawing.SystemColors.Control;
             this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(62, 24);
+            this.Exit.Size = new System.Drawing.Size(51, 20);
             this.Exit.Text = "Salir";
             this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
-            // panel1
+            // Panel1.
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
@@ -452,28 +452,28 @@
             this.panel1.Size = new System.Drawing.Size(1112, 503);
             this.panel1.TabIndex = 7;
             // 
-            // label1
+            // Label1.
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(839, 3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 20);
+            this.label1.Size = new System.Drawing.Size(65, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Usuario:";
             // 
-            // labelUsua
+            // LabelUsua.
             // 
             this.labelUsua.AutoSize = true;
             this.labelUsua.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.labelUsua.Location = new System.Drawing.Point(910, 3);
             this.labelUsua.Name = "labelUsua";
-            this.labelUsua.Size = new System.Drawing.Size(0, 20);
+            this.labelUsua.Size = new System.Drawing.Size(0, 16);
             this.labelUsua.TabIndex = 1;
             // 
-            // Menu
+            // Menu.
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1112, 525);
             this.ControlBox = false;
@@ -553,4 +553,5 @@
         public System.Windows.Forms.Label label1;
     }
 }
+
 

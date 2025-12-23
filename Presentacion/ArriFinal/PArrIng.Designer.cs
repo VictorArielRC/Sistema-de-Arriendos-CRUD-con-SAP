@@ -153,24 +153,16 @@
             this.labelProd3 = new System.Windows.Forms.Label();
             this.labelProd2 = new System.Windows.Forms.Label();
             this.labelProd1 = new System.Windows.Forms.Label();
-            this.TextI10 = new System.Windows.Forms.TextBox();
-            this.TextI9 = new System.Windows.Forms.TextBox();
-            this.TextI8 = new System.Windows.Forms.TextBox();
-            this.TextI7 = new System.Windows.Forms.TextBox();
-            this.TextI6 = new System.Windows.Forms.TextBox();
-            this.TextI5 = new System.Windows.Forms.TextBox();
-            this.TextI4 = new System.Windows.Forms.TextBox();
-            this.TextI3 = new System.Windows.Forms.TextBox();
-            this.TextI2 = new System.Windows.Forms.TextBox();
-            this.TextI1 = new System.Windows.Forms.TextBox();
+            this.TextIdADet = new System.Windows.Forms.TextBox();
+            this.TextIdAPro = new System.Windows.Forms.TextBox();
+            this.TextIdAVun = new System.Windows.Forms.TextBox();
             this.textIdAD = new System.Windows.Forms.TextBox();
-            this.TextDes = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // ButIng
+            // ButIng.
             // 
             this.ButIng.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButIng.Location = new System.Drawing.Point(14, 78);
@@ -182,7 +174,7 @@
             this.ButIng.UseVisualStyleBackColor = true;
             this.ButIng.Click += new System.EventHandler(this.ManejadorButIngClick);
             // 
-            // ButImp
+            // ButImp.
             // 
             this.ButImp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButImp.Location = new System.Drawing.Point(14, 113);
@@ -194,7 +186,7 @@
             this.ButImp.UseVisualStyleBackColor = true;
             this.ButImp.Click += new System.EventHandler(this.ButImp_Click);
             // 
-            // ButSal
+            // ButSal.
             // 
             this.ButSal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButSal.Location = new System.Drawing.Point(602, 353);
@@ -206,7 +198,7 @@
             this.ButSal.UseVisualStyleBackColor = true;
             this.ButSal.Click += new System.EventHandler(this.ManejadorButSalClick);
             // 
-            // ButVol
+            // ButVol.
             // 
             this.ButVol.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButVol.Location = new System.Drawing.Point(18, 358);
@@ -218,7 +210,7 @@
             this.ButVol.UseVisualStyleBackColor = true;
             this.ButVol.Click += new System.EventHandler(this.ManejadorButVolClick);
             // 
-            // ButLim
+            // ButLim.
             // 
             this.ButLim.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButLim.Location = new System.Drawing.Point(14, 145);
@@ -230,7 +222,7 @@
             this.ButLim.UseVisualStyleBackColor = true;
             this.ButLim.Click += new System.EventHandler(this.ManejadorButLimClick);
             // 
-            // BtnUltProdd
+            // BtnUltProdd.
             // 
             this.BtnUltProdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnUltProdd.Location = new System.Drawing.Point(263, 349);
@@ -242,7 +234,7 @@
             this.BtnUltProdd.UseVisualStyleBackColor = true;
             this.BtnUltProdd.Click += new System.EventHandler(this.ManejadorButUlProClick);
             // 
-            // BtnProdArr
+            // BtnProdArr.
             // 
             this.BtnProdArr.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnProdArr.Location = new System.Drawing.Point(457, 354);
@@ -254,7 +246,7 @@
             this.BtnProdArr.UseVisualStyleBackColor = true;
             this.BtnProdArr.Click += new System.EventHandler(this.ManejadorButProClick);
             // 
-            // BtnCliArrIng
+            // BtnCliArrIng.
             // 
             this.BtnCliArrIng.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCliArrIng.Location = new System.Drawing.Point(103, 358);
@@ -266,7 +258,7 @@
             this.BtnCliArrIng.UseVisualStyleBackColor = true;
             this.BtnCliArrIng.Click += new System.EventHandler(this.ManejadorButCliClick);
             // 
-            // TxxtTotaLL
+            // TxxtTotaLL.
             // 
             this.TxxtTotaLL.Enabled = false;
             this.TxxtTotaLL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -276,7 +268,7 @@
             this.TxxtTotaLL.Size = new System.Drawing.Size(90, 23);
             this.TxxtTotaLL.TabIndex = 320;
             // 
-            // TextIVA
+            // TextIVA.
             // 
             this.TextIVA.Enabled = false;
             this.TextIVA.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -287,8 +279,9 @@
             this.TextIVA.TabIndex = 319;
             this.TextIVA.TextChanged += new System.EventHandler(this.TextIVA_TextChanged);
             // 
-            // ComboDes
+            // ComboDes.
             // 
+            this.ComboDes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComboDes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ComboDes.FormattingEnabled = true;
             this.ComboDes.Location = new System.Drawing.Point(371, 45);
@@ -298,7 +291,7 @@
             this.ComboDes.TabIndex = 318;
             this.ComboDes.SelectedIndexChanged += new System.EventHandler(this.ComboDes_SelectedIndexChanged_1);
             // 
-            // TextSubTo
+            // TextSubTo.
             // 
             this.TextSubTo.Enabled = false;
             this.TextSubTo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -308,7 +301,7 @@
             this.TextSubTo.Size = new System.Drawing.Size(47, 23);
             this.TextSubTo.TabIndex = 317;
             // 
-            // label12
+            // Label12.
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -319,7 +312,7 @@
             this.label12.TabIndex = 316;
             this.label12.Text = "Total: ";
             // 
-            // label11
+            // Label11.
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -330,7 +323,7 @@
             this.label11.TabIndex = 315;
             this.label11.Text = "IVA:";
             // 
-            // label10
+            // Label10.
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -341,7 +334,7 @@
             this.label10.TabIndex = 314;
             this.label10.Text = "Descuento:";
             // 
-            // label9
+            // Label9.
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -352,7 +345,7 @@
             this.label9.TabIndex = 313;
             this.label9.Text = "Sub Total:";
             // 
-            // label1
+            // Label1.
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -363,7 +356,7 @@
             this.label1.TabIndex = 312;
             this.label1.Text = "Ingresar Cotización";
             // 
-            // tabControl1
+            // TabControl1.
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
@@ -374,7 +367,7 @@
             this.tabControl1.Size = new System.Drawing.Size(576, 268);
             this.tabControl1.TabIndex = 311;
             // 
-            // tabPage1
+            // TabPage1.
             // 
             this.tabPage1.Controls.Add(this.TextNomCli);
             this.tabPage1.Controls.Add(this.TextIdCli);
@@ -401,7 +394,7 @@
             this.tabPage1.Text = "Clientes";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // TextNomCli
+            // TextNomCli.
             // 
             this.TextNomCli.Enabled = false;
             this.TextNomCli.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -411,7 +404,7 @@
             this.TextNomCli.Size = new System.Drawing.Size(278, 23);
             this.TextNomCli.TabIndex = 7;
             // 
-            // TextIdCli
+            // TextIdCli.
             // 
             this.TextIdCli.Enabled = false;
             this.TextIdCli.Location = new System.Drawing.Point(177, 28);
@@ -421,7 +414,7 @@
             this.TextIdCli.TabIndex = 14;
             this.TextIdCli.Visible = false;
             // 
-            // TextFech
+            // TextFech.
             // 
             this.TextFech.Enabled = false;
             this.TextFech.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -431,7 +424,7 @@
             this.TextFech.Size = new System.Drawing.Size(133, 23);
             this.TextFech.TabIndex = 13;
             // 
-            // TextTel
+            // TextTel.
             // 
             this.TextTel.Enabled = false;
             this.TextTel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -441,7 +434,7 @@
             this.TextTel.Size = new System.Drawing.Size(133, 23);
             this.TextTel.TabIndex = 12;
             // 
-            // TextGir
+            // TextGir.
             // 
             this.TextGir.Enabled = false;
             this.TextGir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -451,7 +444,7 @@
             this.TextGir.Size = new System.Drawing.Size(278, 23);
             this.TextGir.TabIndex = 11;
             // 
-            // TextCom
+            // TextCom.
             // 
             this.TextCom.Enabled = false;
             this.TextCom.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -461,7 +454,7 @@
             this.TextCom.Size = new System.Drawing.Size(278, 23);
             this.TextCom.TabIndex = 10;
             // 
-            // TextDir
+            // TextDir.
             // 
             this.TextDir.Enabled = false;
             this.TextDir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -471,7 +464,7 @@
             this.TextDir.Size = new System.Drawing.Size(278, 23);
             this.TextDir.TabIndex = 9;
             // 
-            // TextRut
+            // TextRut.
             // 
             this.TextRut.Enabled = false;
             this.TextRut.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -481,7 +474,7 @@
             this.TextRut.Size = new System.Drawing.Size(93, 23);
             this.TextRut.TabIndex = 8;
             // 
-            // label8
+            // Label8.
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -492,7 +485,7 @@
             this.label8.TabIndex = 6;
             this.label8.Text = "Fecha:";
             // 
-            // label7
+            // Label7.
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -503,7 +496,7 @@
             this.label7.TabIndex = 5;
             this.label7.Text = "Telefono:";
             // 
-            // label6
+            // Label6.
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -514,7 +507,7 @@
             this.label6.TabIndex = 4;
             this.label6.Text = "Giro:";
             // 
-            // label5
+            // Label5.
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -525,7 +518,7 @@
             this.label5.TabIndex = 3;
             this.label5.Text = "Comuna:";
             // 
-            // label4
+            // Label4.
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -536,7 +529,7 @@
             this.label4.TabIndex = 2;
             this.label4.Text = "Dirección:";
             // 
-            // label3
+            // Label3.
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -547,7 +540,7 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Rut:";
             // 
-            // label2
+            // Label2.
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -558,7 +551,7 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Nombre del Cliente:";
             // 
-            // tabPage2
+            // TabPage2.
             // 
             this.tabPage2.Controls.Add(this.TextProd3);
             this.tabPage2.Controls.Add(this.TextProd4);
@@ -659,7 +652,7 @@
             this.tabPage2.Text = "Productos 1-10";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // TextProd3
+            // TextProd3.
             // 
             this.TextProd3.Enabled = false;
             this.TextProd3.Location = new System.Drawing.Point(77, 49);
@@ -668,7 +661,7 @@
             this.TextProd3.Size = new System.Drawing.Size(140, 20);
             this.TextProd3.TabIndex = 22;
             // 
-            // TextProd4
+            // TextProd4.
             // 
             this.TextProd4.Enabled = false;
             this.TextProd4.Location = new System.Drawing.Point(77, 72);
@@ -677,7 +670,7 @@
             this.TextProd4.Size = new System.Drawing.Size(140, 20);
             this.TextProd4.TabIndex = 23;
             // 
-            // TextProd5
+            // TextProd5.
             // 
             this.TextProd5.Enabled = false;
             this.TextProd5.Location = new System.Drawing.Point(77, 94);
@@ -686,7 +679,7 @@
             this.TextProd5.Size = new System.Drawing.Size(140, 20);
             this.TextProd5.TabIndex = 24;
             // 
-            // TextProd6
+            // TextProd6.
             // 
             this.TextProd6.Enabled = false;
             this.TextProd6.Location = new System.Drawing.Point(77, 115);
@@ -695,7 +688,7 @@
             this.TextProd6.Size = new System.Drawing.Size(140, 20);
             this.TextProd6.TabIndex = 25;
             // 
-            // TextIdProd6
+            // TextIdProd6.
             // 
             this.TextIdProd6.Enabled = false;
             this.TextIdProd6.Location = new System.Drawing.Point(77, 113);
@@ -705,7 +698,7 @@
             this.TextIdProd6.TabIndex = 85;
             this.TextIdProd6.Visible = false;
             // 
-            // TextProd7
+            // TextProd7.
             // 
             this.TextProd7.Enabled = false;
             this.TextProd7.Location = new System.Drawing.Point(77, 137);
@@ -714,7 +707,7 @@
             this.TextProd7.Size = new System.Drawing.Size(140, 20);
             this.TextProd7.TabIndex = 26;
             // 
-            // TextProd8
+            // TextProd8.
             // 
             this.TextProd8.Enabled = false;
             this.TextProd8.Location = new System.Drawing.Point(77, 159);
@@ -723,7 +716,7 @@
             this.TextProd8.Size = new System.Drawing.Size(140, 20);
             this.TextProd8.TabIndex = 27;
             // 
-            // TextProd10
+            // TextProd10.
             // 
             this.TextProd10.Enabled = false;
             this.TextProd10.Location = new System.Drawing.Point(77, 202);
@@ -732,7 +725,7 @@
             this.TextProd10.Size = new System.Drawing.Size(140, 20);
             this.TextProd10.TabIndex = 29;
             // 
-            // TextProd9
+            // TextProd9.
             // 
             this.TextProd9.Enabled = false;
             this.TextProd9.Location = new System.Drawing.Point(77, 180);
@@ -741,7 +734,7 @@
             this.TextProd9.Size = new System.Drawing.Size(140, 20);
             this.TextProd9.TabIndex = 28;
             // 
-            // TextProd2
+            // TextProd2.
             // 
             this.TextProd2.Enabled = false;
             this.TextProd2.Location = new System.Drawing.Point(77, 28);
@@ -750,7 +743,7 @@
             this.TextProd2.Size = new System.Drawing.Size(140, 20);
             this.TextProd2.TabIndex = 21;
             // 
-            // TextIdProd2
+            // TextIdProd2.
             // 
             this.TextIdProd2.Enabled = false;
             this.TextIdProd2.Location = new System.Drawing.Point(77, 25);
@@ -760,7 +753,7 @@
             this.TextIdProd2.TabIndex = 81;
             this.TextIdProd2.Visible = false;
             // 
-            // TextProd1
+            // TextProd1.
             // 
             this.TextProd1.Enabled = false;
             this.TextProd1.Location = new System.Drawing.Point(77, 5);
@@ -769,7 +762,7 @@
             this.TextProd1.Size = new System.Drawing.Size(140, 20);
             this.TextProd1.TabIndex = 20;
             // 
-            // TextIdProd10
+            // TextIdProd10.
             // 
             this.TextIdProd10.Enabled = false;
             this.TextIdProd10.Location = new System.Drawing.Point(77, 202);
@@ -779,7 +772,7 @@
             this.TextIdProd10.TabIndex = 89;
             this.TextIdProd10.Visible = false;
             // 
-            // TextIdProd9
+            // TextIdProd9.
             // 
             this.TextIdProd9.Enabled = false;
             this.TextIdProd9.Location = new System.Drawing.Point(77, 178);
@@ -789,7 +782,7 @@
             this.TextIdProd9.TabIndex = 88;
             this.TextIdProd9.Visible = false;
             // 
-            // TextIdProd8
+            // TextIdProd8.
             // 
             this.TextIdProd8.Enabled = false;
             this.TextIdProd8.Location = new System.Drawing.Point(77, 158);
@@ -799,7 +792,7 @@
             this.TextIdProd8.TabIndex = 87;
             this.TextIdProd8.Visible = false;
             // 
-            // TextIdProd7
+            // TextIdProd7.
             // 
             this.TextIdProd7.Enabled = false;
             this.TextIdProd7.Location = new System.Drawing.Point(77, 135);
@@ -809,7 +802,7 @@
             this.TextIdProd7.TabIndex = 86;
             this.TextIdProd7.Visible = false;
             // 
-            // TextIdProd5
+            // TextIdProd5.
             // 
             this.TextIdProd5.Enabled = false;
             this.TextIdProd5.Location = new System.Drawing.Point(77, 94);
@@ -819,7 +812,7 @@
             this.TextIdProd5.TabIndex = 84;
             this.TextIdProd5.Visible = false;
             // 
-            // TextIdProd4
+            // TextIdProd4.
             // 
             this.TextIdProd4.Enabled = false;
             this.TextIdProd4.Location = new System.Drawing.Point(77, 72);
@@ -829,7 +822,7 @@
             this.TextIdProd4.TabIndex = 83;
             this.TextIdProd4.Visible = false;
             // 
-            // TextIdProd3
+            // TextIdProd3.
             // 
             this.TextIdProd3.Enabled = false;
             this.TextIdProd3.Location = new System.Drawing.Point(77, 49);
@@ -839,7 +832,7 @@
             this.TextIdProd3.TabIndex = 82;
             this.TextIdProd3.Visible = false;
             // 
-            // TextIdProd1
+            // TextIdProd1.
             // 
             this.TextIdProd1.Enabled = false;
             this.TextIdProd1.Location = new System.Drawing.Point(77, 5);
@@ -849,7 +842,7 @@
             this.TextIdProd1.TabIndex = 80;
             this.TextIdProd1.Visible = false;
             // 
-            // TextVTol10
+            // TextVTol10.
             // 
             this.TextVTol10.Enabled = false;
             this.TextVTol10.Location = new System.Drawing.Point(497, 202);
@@ -858,7 +851,7 @@
             this.TextVTol10.Size = new System.Drawing.Size(68, 20);
             this.TextVTol10.TabIndex = 79;
             // 
-            // TextVTol9
+            // TextVTol9.
             // 
             this.TextVTol9.Enabled = false;
             this.TextVTol9.Location = new System.Drawing.Point(497, 180);
@@ -867,7 +860,7 @@
             this.TextVTol9.Size = new System.Drawing.Size(68, 20);
             this.TextVTol9.TabIndex = 78;
             // 
-            // TextVTol8
+            // TextVTol8.
             // 
             this.TextVTol8.Enabled = false;
             this.TextVTol8.Location = new System.Drawing.Point(497, 159);
@@ -876,7 +869,7 @@
             this.TextVTol8.Size = new System.Drawing.Size(68, 20);
             this.TextVTol8.TabIndex = 77;
             // 
-            // TextVTol7
+            // TextVTol7.
             // 
             this.TextVTol7.Enabled = false;
             this.TextVTol7.Location = new System.Drawing.Point(497, 137);
@@ -885,7 +878,7 @@
             this.TextVTol7.Size = new System.Drawing.Size(68, 20);
             this.TextVTol7.TabIndex = 76;
             // 
-            // TextVTol6
+            // TextVTol6.
             // 
             this.TextVTol6.Enabled = false;
             this.TextVTol6.Location = new System.Drawing.Point(497, 115);
@@ -894,7 +887,7 @@
             this.TextVTol6.Size = new System.Drawing.Size(68, 20);
             this.TextVTol6.TabIndex = 75;
             // 
-            // TextVTol5
+            // TextVTol5.
             // 
             this.TextVTol5.Enabled = false;
             this.TextVTol5.Location = new System.Drawing.Point(497, 94);
@@ -903,7 +896,7 @@
             this.TextVTol5.Size = new System.Drawing.Size(68, 20);
             this.TextVTol5.TabIndex = 74;
             // 
-            // TextVTol4
+            // TextVTol4.
             // 
             this.TextVTol4.Enabled = false;
             this.TextVTol4.Location = new System.Drawing.Point(497, 72);
@@ -912,7 +905,7 @@
             this.TextVTol4.Size = new System.Drawing.Size(68, 20);
             this.TextVTol4.TabIndex = 73;
             // 
-            // TextVTol3
+            // TextVTol3.
             // 
             this.TextVTol3.Enabled = false;
             this.TextVTol3.Location = new System.Drawing.Point(497, 49);
@@ -921,7 +914,7 @@
             this.TextVTol3.Size = new System.Drawing.Size(68, 20);
             this.TextVTol3.TabIndex = 72;
             // 
-            // TextVTol2
+            // TextVTol2.
             // 
             this.TextVTol2.Enabled = false;
             this.TextVTol2.Location = new System.Drawing.Point(497, 28);
@@ -930,7 +923,7 @@
             this.TextVTol2.Size = new System.Drawing.Size(68, 20);
             this.TextVTol2.TabIndex = 71;
             // 
-            // TextVTol1
+            // TextVTol1.
             // 
             this.TextVTol1.Enabled = false;
             this.TextVTol1.Location = new System.Drawing.Point(496, 5);
@@ -939,7 +932,7 @@
             this.TextVTol1.Size = new System.Drawing.Size(68, 20);
             this.TextVTol1.TabIndex = 70;
             // 
-            // labelVTol10
+            // LabelVTol10.
             // 
             this.labelVTol10.AutoSize = true;
             this.labelVTol10.Location = new System.Drawing.Point(446, 204);
@@ -949,7 +942,7 @@
             this.labelVTol10.TabIndex = 69;
             this.labelVTol10.Text = "V. Total:";
             // 
-            // labelVTol9
+            // LabelVTol9.
             // 
             this.labelVTol9.AutoSize = true;
             this.labelVTol9.Location = new System.Drawing.Point(446, 182);
@@ -959,7 +952,7 @@
             this.labelVTol9.TabIndex = 68;
             this.labelVTol9.Text = "V. Total:";
             // 
-            // labelVTol8
+            // LabelVTol8.
             // 
             this.labelVTol8.AutoSize = true;
             this.labelVTol8.Location = new System.Drawing.Point(446, 161);
@@ -969,7 +962,7 @@
             this.labelVTol8.TabIndex = 67;
             this.labelVTol8.Text = "V. Total:";
             // 
-            // labelVTol7
+            // LabelVTol7.
             // 
             this.labelVTol7.AutoSize = true;
             this.labelVTol7.Location = new System.Drawing.Point(446, 139);
@@ -979,7 +972,7 @@
             this.labelVTol7.TabIndex = 66;
             this.labelVTol7.Text = "V. Total:";
             // 
-            // labelVTol6
+            // LabelVTol6.
             // 
             this.labelVTol6.AutoSize = true;
             this.labelVTol6.Location = new System.Drawing.Point(446, 117);
@@ -989,7 +982,7 @@
             this.labelVTol6.TabIndex = 65;
             this.labelVTol6.Text = "V. Total:";
             // 
-            // labelVTol5
+            // LabelVTol5.
             // 
             this.labelVTol5.AutoSize = true;
             this.labelVTol5.Location = new System.Drawing.Point(446, 96);
@@ -999,7 +992,7 @@
             this.labelVTol5.TabIndex = 64;
             this.labelVTol5.Text = "V. Total:";
             // 
-            // labelVTol4
+            // LabelVTol4.
             // 
             this.labelVTol4.AutoSize = true;
             this.labelVTol4.Location = new System.Drawing.Point(446, 73);
@@ -1009,7 +1002,7 @@
             this.labelVTol4.TabIndex = 63;
             this.labelVTol4.Text = "V. Total:";
             // 
-            // labelVTol3
+            // LabelVTol3.
             // 
             this.labelVTol3.AutoSize = true;
             this.labelVTol3.Location = new System.Drawing.Point(446, 50);
@@ -1019,7 +1012,7 @@
             this.labelVTol3.TabIndex = 62;
             this.labelVTol3.Text = "V. Total:";
             // 
-            // labelVTol2
+            // LabelVTol2.
             // 
             this.labelVTol2.AutoSize = true;
             this.labelVTol2.Location = new System.Drawing.Point(446, 29);
@@ -1029,7 +1022,7 @@
             this.labelVTol2.TabIndex = 61;
             this.labelVTol2.Text = "V. Total:";
             // 
-            // labelVTol1
+            // LabelVTol1.
             // 
             this.labelVTol1.AutoSize = true;
             this.labelVTol1.Location = new System.Drawing.Point(446, 7);
@@ -1039,7 +1032,7 @@
             this.labelVTol1.TabIndex = 60;
             this.labelVTol1.Text = "V. Total:";
             // 
-            // TextVUn10
+            // TextVUn10.
             // 
             this.TextVUn10.Enabled = false;
             this.TextVUn10.Location = new System.Drawing.Point(396, 202);
@@ -1048,7 +1041,7 @@
             this.TextVUn10.Size = new System.Drawing.Size(40, 20);
             this.TextVUn10.TabIndex = 59;
             // 
-            // TextVUn9
+            // TextVUn9.
             // 
             this.TextVUn9.Enabled = false;
             this.TextVUn9.Location = new System.Drawing.Point(396, 180);
@@ -1057,7 +1050,7 @@
             this.TextVUn9.Size = new System.Drawing.Size(40, 20);
             this.TextVUn9.TabIndex = 58;
             // 
-            // TextVUn8
+            // TextVUn8.
             // 
             this.TextVUn8.Enabled = false;
             this.TextVUn8.Location = new System.Drawing.Point(396, 159);
@@ -1066,7 +1059,7 @@
             this.TextVUn8.Size = new System.Drawing.Size(40, 20);
             this.TextVUn8.TabIndex = 57;
             // 
-            // TextVUn7
+            // TextVUn7.
             // 
             this.TextVUn7.Enabled = false;
             this.TextVUn7.Location = new System.Drawing.Point(396, 137);
@@ -1075,7 +1068,7 @@
             this.TextVUn7.Size = new System.Drawing.Size(40, 20);
             this.TextVUn7.TabIndex = 56;
             // 
-            // TextVUn6
+            // TextVUn6.
             // 
             this.TextVUn6.Enabled = false;
             this.TextVUn6.Location = new System.Drawing.Point(396, 115);
@@ -1084,7 +1077,7 @@
             this.TextVUn6.Size = new System.Drawing.Size(40, 20);
             this.TextVUn6.TabIndex = 55;
             // 
-            // TextVUn5
+            // TextVUn5.
             // 
             this.TextVUn5.Enabled = false;
             this.TextVUn5.Location = new System.Drawing.Point(396, 94);
@@ -1093,7 +1086,7 @@
             this.TextVUn5.Size = new System.Drawing.Size(40, 20);
             this.TextVUn5.TabIndex = 54;
             // 
-            // TextVUn4
+            // TextVUn4.
             // 
             this.TextVUn4.Enabled = false;
             this.TextVUn4.Location = new System.Drawing.Point(396, 72);
@@ -1102,7 +1095,7 @@
             this.TextVUn4.Size = new System.Drawing.Size(40, 20);
             this.TextVUn4.TabIndex = 53;
             // 
-            // TextVUn3
+            // TextVUn3.
             // 
             this.TextVUn3.Enabled = false;
             this.TextVUn3.Location = new System.Drawing.Point(396, 49);
@@ -1111,7 +1104,7 @@
             this.TextVUn3.Size = new System.Drawing.Size(40, 20);
             this.TextVUn3.TabIndex = 52;
             // 
-            // TextVUn2
+            // TextVUn2.
             // 
             this.TextVUn2.Enabled = false;
             this.TextVUn2.Location = new System.Drawing.Point(396, 28);
@@ -1120,7 +1113,7 @@
             this.TextVUn2.Size = new System.Drawing.Size(40, 20);
             this.TextVUn2.TabIndex = 51;
             // 
-            // TextVUn1
+            // TextVUn1.
             // 
             this.TextVUn1.Enabled = false;
             this.TextVUn1.Location = new System.Drawing.Point(396, 5);
@@ -1129,7 +1122,7 @@
             this.TextVUn1.Size = new System.Drawing.Size(40, 20);
             this.TextVUn1.TabIndex = 50;
             // 
-            // labelVUn10
+            // LabelVUn10.
             // 
             this.labelVUn10.AutoSize = true;
             this.labelVUn10.Location = new System.Drawing.Point(331, 204);
@@ -1139,7 +1132,7 @@
             this.labelVUn10.TabIndex = 49;
             this.labelVUn10.Text = "V. Unitario:";
             // 
-            // labelVUn9
+            // LabelVUn9.
             // 
             this.labelVUn9.AutoSize = true;
             this.labelVUn9.Location = new System.Drawing.Point(331, 182);
@@ -1149,7 +1142,7 @@
             this.labelVUn9.TabIndex = 48;
             this.labelVUn9.Text = "V. Unitario:";
             // 
-            // labelVUn8
+            // LabelVUn8.
             // 
             this.labelVUn8.AutoSize = true;
             this.labelVUn8.Location = new System.Drawing.Point(331, 161);
@@ -1159,7 +1152,7 @@
             this.labelVUn8.TabIndex = 47;
             this.labelVUn8.Text = "V. Unitario:";
             // 
-            // labelVUn7
+            // LabelVUn7.
             // 
             this.labelVUn7.AutoSize = true;
             this.labelVUn7.Location = new System.Drawing.Point(331, 139);
@@ -1169,7 +1162,7 @@
             this.labelVUn7.TabIndex = 46;
             this.labelVUn7.Text = "V. Unitario:";
             // 
-            // labelVUn6
+            // LabelVUn6.
             // 
             this.labelVUn6.AutoSize = true;
             this.labelVUn6.Location = new System.Drawing.Point(331, 117);
@@ -1179,7 +1172,7 @@
             this.labelVUn6.TabIndex = 45;
             this.labelVUn6.Text = "V. Unitario:";
             // 
-            // labelVUn5
+            // LabelVUn5.
             // 
             this.labelVUn5.AutoSize = true;
             this.labelVUn5.Location = new System.Drawing.Point(331, 96);
@@ -1189,7 +1182,7 @@
             this.labelVUn5.TabIndex = 44;
             this.labelVUn5.Text = "V. Unitario:";
             // 
-            // labelVUn4
+            // LabelVUn4.
             // 
             this.labelVUn4.AutoSize = true;
             this.labelVUn4.Location = new System.Drawing.Point(331, 73);
@@ -1199,7 +1192,7 @@
             this.labelVUn4.TabIndex = 43;
             this.labelVUn4.Text = "V. Unitario:";
             // 
-            // labelVUn3
+            // LabelVUn3.
             // 
             this.labelVUn3.AutoSize = true;
             this.labelVUn3.Location = new System.Drawing.Point(331, 50);
@@ -1209,7 +1202,7 @@
             this.labelVUn3.TabIndex = 42;
             this.labelVUn3.Text = "V. Unitario:";
             // 
-            // labelVUn2
+            // LabelVUn2.
             // 
             this.labelVUn2.AutoSize = true;
             this.labelVUn2.Location = new System.Drawing.Point(331, 29);
@@ -1219,7 +1212,7 @@
             this.labelVUn2.TabIndex = 41;
             this.labelVUn2.Text = "V. Unitario:";
             // 
-            // labelVUn1
+            // LabelVUn1.
             // 
             this.labelVUn1.AutoSize = true;
             this.labelVUn1.Location = new System.Drawing.Point(331, 7);
@@ -1229,7 +1222,7 @@
             this.labelVUn1.TabIndex = 40;
             this.labelVUn1.Text = "V. Unitario:";
             // 
-            // TextCan10
+            // TextCan10.
             // 
             this.TextCan10.Enabled = false;
             this.TextCan10.Location = new System.Drawing.Point(283, 202);
@@ -1238,7 +1231,7 @@
             this.TextCan10.Size = new System.Drawing.Size(40, 20);
             this.TextCan10.TabIndex = 39;
             // 
-            // TextCan9
+            // TextCan9.
             // 
             this.TextCan9.Enabled = false;
             this.TextCan9.Location = new System.Drawing.Point(283, 180);
@@ -1247,7 +1240,7 @@
             this.TextCan9.Size = new System.Drawing.Size(40, 20);
             this.TextCan9.TabIndex = 38;
             // 
-            // TextCan8
+            // TextCan8.
             // 
             this.TextCan8.Enabled = false;
             this.TextCan8.Location = new System.Drawing.Point(283, 159);
@@ -1256,7 +1249,7 @@
             this.TextCan8.Size = new System.Drawing.Size(40, 20);
             this.TextCan8.TabIndex = 37;
             // 
-            // TextCan7
+            // TextCan7.
             // 
             this.TextCan7.Enabled = false;
             this.TextCan7.Location = new System.Drawing.Point(283, 137);
@@ -1265,7 +1258,7 @@
             this.TextCan7.Size = new System.Drawing.Size(40, 20);
             this.TextCan7.TabIndex = 36;
             // 
-            // TextCan6
+            // TextCan6.
             // 
             this.TextCan6.Enabled = false;
             this.TextCan6.Location = new System.Drawing.Point(283, 115);
@@ -1274,7 +1267,7 @@
             this.TextCan6.Size = new System.Drawing.Size(40, 20);
             this.TextCan6.TabIndex = 35;
             // 
-            // TextCan5
+            // TextCan5.
             // 
             this.TextCan5.Enabled = false;
             this.TextCan5.Location = new System.Drawing.Point(283, 94);
@@ -1283,7 +1276,7 @@
             this.TextCan5.Size = new System.Drawing.Size(40, 20);
             this.TextCan5.TabIndex = 34;
             // 
-            // TextCan4
+            // TextCan4.
             // 
             this.TextCan4.Enabled = false;
             this.TextCan4.Location = new System.Drawing.Point(283, 72);
@@ -1292,7 +1285,7 @@
             this.TextCan4.Size = new System.Drawing.Size(40, 20);
             this.TextCan4.TabIndex = 33;
             // 
-            // TextCan3
+            // TextCan3.
             // 
             this.TextCan3.Enabled = false;
             this.TextCan3.Location = new System.Drawing.Point(283, 49);
@@ -1301,7 +1294,7 @@
             this.TextCan3.Size = new System.Drawing.Size(40, 20);
             this.TextCan3.TabIndex = 32;
             // 
-            // TextCan2
+            // TextCan2.
             // 
             this.TextCan2.Enabled = false;
             this.TextCan2.Location = new System.Drawing.Point(283, 28);
@@ -1310,7 +1303,7 @@
             this.TextCan2.Size = new System.Drawing.Size(40, 20);
             this.TextCan2.TabIndex = 31;
             // 
-            // TextCan1
+            // TextCan1.
             // 
             this.TextCan1.Enabled = false;
             this.TextCan1.Location = new System.Drawing.Point(283, 5);
@@ -1319,7 +1312,7 @@
             this.TextCan1.Size = new System.Drawing.Size(40, 20);
             this.TextCan1.TabIndex = 30;
             // 
-            // labelCan10
+            // LabelCan10.
             // 
             this.labelCan10.AutoSize = true;
             this.labelCan10.Location = new System.Drawing.Point(225, 204);
@@ -1329,7 +1322,7 @@
             this.labelCan10.TabIndex = 19;
             this.labelCan10.Text = "Cantidad:";
             // 
-            // labelCan9
+            // LabelCan9.
             // 
             this.labelCan9.AutoSize = true;
             this.labelCan9.Location = new System.Drawing.Point(225, 182);
@@ -1339,7 +1332,7 @@
             this.labelCan9.TabIndex = 18;
             this.labelCan9.Text = "Cantidad:";
             // 
-            // labelCan8
+            // LabelCan8.
             // 
             this.labelCan8.AutoSize = true;
             this.labelCan8.Location = new System.Drawing.Point(225, 161);
@@ -1349,7 +1342,7 @@
             this.labelCan8.TabIndex = 17;
             this.labelCan8.Text = "Cantidad:";
             // 
-            // labelCan7
+            // LabelCan7.
             // 
             this.labelCan7.AutoSize = true;
             this.labelCan7.Location = new System.Drawing.Point(225, 139);
@@ -1359,7 +1352,7 @@
             this.labelCan7.TabIndex = 16;
             this.labelCan7.Text = "Cantidad:";
             // 
-            // labelCan6
+            // LabelCan6.
             // 
             this.labelCan6.AutoSize = true;
             this.labelCan6.Location = new System.Drawing.Point(225, 117);
@@ -1369,7 +1362,7 @@
             this.labelCan6.TabIndex = 15;
             this.labelCan6.Text = "Cantidad:";
             // 
-            // labelCan4
+            // LabelCan4.
             // 
             this.labelCan4.AutoSize = true;
             this.labelCan4.Location = new System.Drawing.Point(225, 73);
@@ -1379,7 +1372,7 @@
             this.labelCan4.TabIndex = 14;
             this.labelCan4.Text = "Cantidad:";
             // 
-            // labelCan5
+            // LabelCan5.
             // 
             this.labelCan5.AutoSize = true;
             this.labelCan5.Location = new System.Drawing.Point(225, 96);
@@ -1389,7 +1382,7 @@
             this.labelCan5.TabIndex = 13;
             this.labelCan5.Text = "Cantidad:";
             // 
-            // labelCan2
+            // LabelCan2.
             // 
             this.labelCan2.AutoSize = true;
             this.labelCan2.Location = new System.Drawing.Point(225, 29);
@@ -1399,7 +1392,7 @@
             this.labelCan2.TabIndex = 12;
             this.labelCan2.Text = "Cantidad:";
             // 
-            // labelCan3
+            // LabelCan3.
             // 
             this.labelCan3.AutoSize = true;
             this.labelCan3.Location = new System.Drawing.Point(225, 50);
@@ -1409,7 +1402,7 @@
             this.labelCan3.TabIndex = 11;
             this.labelCan3.Text = "Cantidad:";
             // 
-            // labelCan1
+            // LabelCan1.
             // 
             this.labelCan1.AutoSize = true;
             this.labelCan1.Location = new System.Drawing.Point(225, 7);
@@ -1419,7 +1412,7 @@
             this.labelCan1.TabIndex = 10;
             this.labelCan1.Text = "Cantidad:";
             // 
-            // labelProd10
+            // LabelProd10.
             // 
             this.labelProd10.AutoSize = true;
             this.labelProd10.Location = new System.Drawing.Point(8, 204);
@@ -1429,7 +1422,7 @@
             this.labelProd10.TabIndex = 9;
             this.labelProd10.Text = "Producto10:";
             // 
-            // labelProd9
+            // LabelProd9.
             // 
             this.labelProd9.AutoSize = true;
             this.labelProd9.Location = new System.Drawing.Point(10, 182);
@@ -1439,7 +1432,7 @@
             this.labelProd9.TabIndex = 8;
             this.labelProd9.Text = "Producto 9:";
             // 
-            // labelProd8
+            // LabelProd8.
             // 
             this.labelProd8.AutoSize = true;
             this.labelProd8.Location = new System.Drawing.Point(10, 161);
@@ -1449,7 +1442,7 @@
             this.labelProd8.TabIndex = 7;
             this.labelProd8.Text = "Producto 8:";
             // 
-            // labelProd7
+            // LabelProd7.
             // 
             this.labelProd7.AutoSize = true;
             this.labelProd7.Location = new System.Drawing.Point(10, 139);
@@ -1459,7 +1452,7 @@
             this.labelProd7.TabIndex = 6;
             this.labelProd7.Text = "Producto 7:";
             // 
-            // labelProd6
+            // LabelProd6.
             // 
             this.labelProd6.AutoSize = true;
             this.labelProd6.Location = new System.Drawing.Point(10, 117);
@@ -1469,7 +1462,7 @@
             this.labelProd6.TabIndex = 5;
             this.labelProd6.Text = "Producto 6:";
             // 
-            // labelProd5
+            // LabelProd5.
             // 
             this.labelProd5.AutoSize = true;
             this.labelProd5.Location = new System.Drawing.Point(10, 96);
@@ -1479,7 +1472,7 @@
             this.labelProd5.TabIndex = 4;
             this.labelProd5.Text = "Producto 5:";
             // 
-            // labelProd4
+            // LabelProd4.
             // 
             this.labelProd4.AutoSize = true;
             this.labelProd4.Location = new System.Drawing.Point(10, 73);
@@ -1489,7 +1482,7 @@
             this.labelProd4.TabIndex = 3;
             this.labelProd4.Text = "Producto 4:";
             // 
-            // labelProd3
+            // LabelProd3.
             // 
             this.labelProd3.AutoSize = true;
             this.labelProd3.Location = new System.Drawing.Point(10, 50);
@@ -1499,7 +1492,7 @@
             this.labelProd3.TabIndex = 2;
             this.labelProd3.Text = "Producto 3:";
             // 
-            // labelProd2
+            // LabelProd2.
             // 
             this.labelProd2.AutoSize = true;
             this.labelProd2.Location = new System.Drawing.Point(10, 29);
@@ -1509,7 +1502,7 @@
             this.labelProd2.TabIndex = 1;
             this.labelProd2.Text = "Producto 2:";
             // 
-            // labelProd1
+            // LabelProd1.
             // 
             this.labelProd1.AutoSize = true;
             this.labelProd1.Location = new System.Drawing.Point(10, 7);
@@ -1519,87 +1512,31 @@
             this.labelProd1.TabIndex = 0;
             this.labelProd1.Text = "Producto 1:";
             // 
-            // TextI10
+            // TextIdADet.
             // 
-            this.TextI10.Enabled = false;
-            this.TextI10.Location = new System.Drawing.Point(334, 466);
-            this.TextI10.Name = "TextI10";
-            this.TextI10.Size = new System.Drawing.Size(28, 20);
-            this.TextI10.TabIndex = 448;
+            this.TextIdADet.Enabled = false;
+            this.TextIdADet.Location = new System.Drawing.Point(28, 632);
+            this.TextIdADet.Name = "TextIdADet";
+            this.TextIdADet.Size = new System.Drawing.Size(28, 20);
+            this.TextIdADet.TabIndex = 444;
             // 
-            // TextI9
+            // TextIdAPro.
             // 
-            this.TextI9.Enabled = false;
-            this.TextI9.Location = new System.Drawing.Point(300, 466);
-            this.TextI9.Name = "TextI9";
-            this.TextI9.Size = new System.Drawing.Size(28, 20);
-            this.TextI9.TabIndex = 447;
+            this.TextIdAPro.Enabled = false;
+            this.TextIdAPro.Location = new System.Drawing.Point(28, 606);
+            this.TextIdAPro.Name = "TextIdAPro";
+            this.TextIdAPro.Size = new System.Drawing.Size(28, 20);
+            this.TextIdAPro.TabIndex = 443;
             // 
-            // TextI8
+            // TextIdAVun.
             // 
-            this.TextI8.Enabled = false;
-            this.TextI8.Location = new System.Drawing.Point(266, 466);
-            this.TextI8.Name = "TextI8";
-            this.TextI8.Size = new System.Drawing.Size(28, 20);
-            this.TextI8.TabIndex = 446;
+            this.TextIdAVun.Enabled = false;
+            this.TextIdAVun.Location = new System.Drawing.Point(28, 580);
+            this.TextIdAVun.Name = "TextIdAVun";
+            this.TextIdAVun.Size = new System.Drawing.Size(28, 20);
+            this.TextIdAVun.TabIndex = 442;
             // 
-            // TextI7
-            // 
-            this.TextI7.Enabled = false;
-            this.TextI7.Location = new System.Drawing.Point(232, 466);
-            this.TextI7.Name = "TextI7";
-            this.TextI7.Size = new System.Drawing.Size(28, 20);
-            this.TextI7.TabIndex = 445;
-            // 
-            // TextI6
-            // 
-            this.TextI6.Enabled = false;
-            this.TextI6.Location = new System.Drawing.Point(198, 466);
-            this.TextI6.Name = "TextI6";
-            this.TextI6.Size = new System.Drawing.Size(28, 20);
-            this.TextI6.TabIndex = 444;
-            // 
-            // TextI5
-            // 
-            this.TextI5.Enabled = false;
-            this.TextI5.Location = new System.Drawing.Point(164, 466);
-            this.TextI5.Name = "TextI5";
-            this.TextI5.Size = new System.Drawing.Size(28, 20);
-            this.TextI5.TabIndex = 443;
-            // 
-            // TextI4
-            // 
-            this.TextI4.Enabled = false;
-            this.TextI4.Location = new System.Drawing.Point(130, 466);
-            this.TextI4.Name = "TextI4";
-            this.TextI4.Size = new System.Drawing.Size(28, 20);
-            this.TextI4.TabIndex = 442;
-            // 
-            // TextI3
-            // 
-            this.TextI3.Enabled = false;
-            this.TextI3.Location = new System.Drawing.Point(96, 466);
-            this.TextI3.Name = "TextI3";
-            this.TextI3.Size = new System.Drawing.Size(28, 20);
-            this.TextI3.TabIndex = 441;
-            // 
-            // TextI2
-            // 
-            this.TextI2.Enabled = false;
-            this.TextI2.Location = new System.Drawing.Point(62, 466);
-            this.TextI2.Name = "TextI2";
-            this.TextI2.Size = new System.Drawing.Size(28, 20);
-            this.TextI2.TabIndex = 440;
-            // 
-            // TextI1
-            // 
-            this.TextI1.Enabled = false;
-            this.TextI1.Location = new System.Drawing.Point(28, 466);
-            this.TextI1.Name = "TextI1";
-            this.TextI1.Size = new System.Drawing.Size(28, 20);
-            this.TextI1.TabIndex = 439;
-            // 
-            // textIdAD
+            // TextIdAD.
             // 
             this.textIdAD.Enabled = false;
             this.textIdAD.Location = new System.Drawing.Point(28, 504);
@@ -1607,33 +1544,17 @@
             this.textIdAD.Size = new System.Drawing.Size(28, 20);
             this.textIdAD.TabIndex = 460;
             // 
-            // TextDes
-            // 
-            this.TextDes.Enabled = false;
-            this.TextDes.Location = new System.Drawing.Point(130, 504);
-            this.TextDes.Name = "TextDes";
-            this.TextDes.Size = new System.Drawing.Size(54, 20);
-            this.TextDes.TabIndex = 461;
-            // 
-            // PArrIng
+            // PArrIng.
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(765, 419);
+            this.ClientSize = new System.Drawing.Size(765, 397);
             this.ControlBox = false;
-            this.Controls.Add(this.TextDes);
             this.Controls.Add(this.textIdAD);
-            this.Controls.Add(this.TextI10);
-            this.Controls.Add(this.TextI9);
-            this.Controls.Add(this.TextI8);
-            this.Controls.Add(this.TextI7);
-            this.Controls.Add(this.TextI6);
-            this.Controls.Add(this.TextI5);
-            this.Controls.Add(this.TextI4);
-            this.Controls.Add(this.TextI3);
-            this.Controls.Add(this.TextI2);
-            this.Controls.Add(this.TextI1);
+            this.Controls.Add(this.TextIdADet);
+            this.Controls.Add(this.TextIdAPro);
+            this.Controls.Add(this.TextIdAVun);
             this.Controls.Add(this.ButIng);
             this.Controls.Add(this.ButImp);
             this.Controls.Add(this.ButSal);
@@ -1796,17 +1717,9 @@
         private System.Windows.Forms.Label labelProd3;
         private System.Windows.Forms.Label labelProd2;
         private System.Windows.Forms.Label labelProd1;
-        internal System.Windows.Forms.TextBox TextI10;
-        internal System.Windows.Forms.TextBox TextI9;
-        internal System.Windows.Forms.TextBox TextI8;
-        internal System.Windows.Forms.TextBox TextI7;
-        internal System.Windows.Forms.TextBox TextI6;
-        internal System.Windows.Forms.TextBox TextI5;
-        internal System.Windows.Forms.TextBox TextI4;
-        internal System.Windows.Forms.TextBox TextI3;
-        internal System.Windows.Forms.TextBox TextI2;
-        internal System.Windows.Forms.TextBox TextI1;
+        internal System.Windows.Forms.TextBox TextIdADet;
+        internal System.Windows.Forms.TextBox TextIdAPro;
+        internal System.Windows.Forms.TextBox TextIdAVun;
         internal System.Windows.Forms.TextBox textIdAD;
-        internal System.Windows.Forms.TextBox TextDes;
     }
 }
